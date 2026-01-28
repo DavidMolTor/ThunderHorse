@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ac187c6c-fa53-41cc-bce1-6f39a42a92e8")
+	(paper "A4")
+	(title_block
+		(title "THUNDER HORSE")
+		(date "2026-01-28")
+		(rev "1.0")
+		(company "Chapuzas S.L.")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
