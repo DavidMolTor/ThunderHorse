@@ -613,6 +613,22 @@
     [
       "ac187c6c-fa53-41cc-bce1-6f39a42a92e8",
       "Root"
+    ],
+    [
+      "9df2a240-d97e-494f-85fd-6467f59fa68d",
+      "Power"
+    ],
+    [
+      "18f92408-e59e-47fb-af3d-1bd4cb05bcc2",
+      "MCU"
+    ],
+    [
+      "807a5f6f-4255-4cf0-8d90-acd62bb18590",
+      "ESC"
+    ],
+    [
+      "593939c9-ca21-46a5-baaf-5c6ecc4a9199",
+      "Sensors"
     ]
   ],
   "text_variables": {}
