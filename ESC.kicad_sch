@@ -1363,7 +1363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0278d4fc-932a-4aa5-a3c4-3a487ea6029d")
-		(property "Reference" "U?"
+		(property "Reference" "U7"
 			(at 123.8886 34.29 0)
 			(effects
 				(font
@@ -1575,7 +1575,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590"
-					(reference "U?")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -1615,7 +1615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28_4x4mm_P0.5mm"
+		(property "Footprint" "Custom_Parts:QFN-28_4x4mm_P0.5mm"
 			(at 44.45 86.36 0)
 			(effects
 				(font

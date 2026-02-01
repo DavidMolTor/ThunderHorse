@@ -629,6 +629,10 @@
     [
       "593939c9-ca21-46a5-baaf-5c6ecc4a9199",
       "Sensors"
+    ],
+    [
+      "bc3cf81e-9940-4196-8a64-4d021e41ea8d",
+      "Receiver"
     ]
   ],
   "text_variables": {}
