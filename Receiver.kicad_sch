@@ -6128,7 +6128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "001262ef-3f09-409d-a63d-7d6022a47c51")
-		(property "Reference" "C8"
+		(property "Reference" "C17"
 			(at 243.078 40.64 0)
 			(effects
 				(font
@@ -6204,7 +6204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0418e38f-d651-4c0b-ac39-30a5fd84918d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR032"
 			(at 72.39 106.68 0)
 			(effects
 				(font
@@ -6276,7 +6276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ae4a198-f16b-435a-8671-a14a7538119b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 49.53 54.61 0)
 			(effects
 				(font
@@ -6348,7 +6348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7011eb-ebb0-4b0c-bc2c-1b2e64b35c1d")
-		(property "Reference" "C4"
+		(property "Reference" "C10"
 			(at 139.7 44.4499 0)
 			(effects
 				(font
@@ -6357,7 +6357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "10u"
 			(at 139.7 46.9899 0)
 			(effects
 				(font
@@ -6416,16 +6416,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 80.01 0)
+		(at 259.08 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0df364be-5e1f-427b-94bb-49e15b72a44d")
-		(property "Reference" "#PWR038"
-			(at 96.52 83.82 0)
+		(uuid "0c72e97f-cfb9-4734-941c-a88e68caef2b")
+		(property "Reference" "#PWR028"
+			(at 259.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,8 +6432,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 96.52 74.93 0)
+		(property "Value" "3V3_RX"
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 80.01 0)
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 80.01 0)
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 80.01 0)
+			(at 259.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,18 +6468,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "bfe20971-a4de-4336-8161-a08448156713")
+			(uuid "477b8b63-c986-45d5-aa4e-6920d722e37e")
 		)
 		(instances
-			(project "Receiver"
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR038")
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 86.36 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d5919c8-ba12-428b-b476-a467b4a5f5eb")
+		(property "Reference" "#PWR033"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_RX"
+			(at 86.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710aad86-dfe3-4585-9db0-464ef9047bae")
+		)
+		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6496,7 +6554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e15a918-1dc2-46db-a46c-aa269908cff2")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 127 135.89 0)
 			(effects
 				(font
@@ -6641,7 +6699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f77eb1c-3f8a-42a4-a1b8-4d6af34a6fc0")
-		(property "Reference" "C19"
+		(property "Reference" "C3"
 			(at 50.7837 93.9799 0)
 			(effects
 				(font
@@ -6717,7 +6775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f9decd1-c4eb-4b90-85a8-c50a83bc34a9")
-		(property "Reference" "C7"
+		(property "Reference" "C19"
 			(at 262.89 40.6399 0)
 			(effects
 				(font
@@ -6793,7 +6851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "103c0c14-3aaa-441b-ba0f-0b5d2c239f0f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR09"
 			(at 110.49 106.68 0)
 			(effects
 				(font
@@ -6865,7 +6923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10fd75a7-3aa1-42cc-87ee-9b18dedd09dd")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR025"
 			(at 233.68 154.94 0)
 			(effects
 				(font
@@ -6937,7 +6995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132d82db-ee76-4d6d-8a4b-feeb1c84f548")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR013"
 			(at 123.19 58.42 0)
 			(effects
 				(font
@@ -7009,7 +7067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1738e5ef-0d3b-412e-893f-7f8cdfca11c1")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 114.3 44.4499 0)
 			(effects
 				(font
@@ -7018,7 +7076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 114.3 46.9899 0)
 			(effects
 				(font
@@ -7085,7 +7143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19365973-4f4d-4eb3-91da-31623707fe3b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR026"
 			(at 246.38 154.94 0)
 			(effects
 				(font
@@ -7148,78 +7206,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 139.7 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d09d91f-4563-4b9c-9b23-051fb12fdb2f")
-		(property "Reference" "#PWR043"
-			(at 139.7 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 139.7 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 139.7 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fca41e9a-3d16-4aa1-8634-636e52da9c34")
-		)
-		(instances
-			(project "Receiver"
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 72.39 96.52 0)
 		(unit 1)
@@ -7229,7 +7215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f432de7-7053-4ed3-9b61-8e61c856b841")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 76.2 95.2499 0)
 			(effects
 				(font
@@ -7305,7 +7291,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "20922f0d-5b98-4966-8ce3-eb5def6c59ab")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 250.19 140.9699 0)
 			(effects
 				(font
@@ -7453,7 +7439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "229e2a8c-5439-4ba0-9862-8f4103a218b8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR031"
 			(at 264.16 154.94 0)
 			(effects
 				(font
@@ -7516,79 +7502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 35.56 115.57 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22a4ae27-5fbc-42c3-a691-dd8b64c52441")
-		(property "Reference" "#PWR028"
-			(at 35.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 35.56 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 35.56 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57aa4f67-0fd8-489b-9812-c0fd20e4ed03")
-		)
-		(instances
-			(project "Receiver"
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 49.53 41.91 0)
 		(unit 1)
@@ -7598,7 +7511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235a7b1d-ac27-430a-be68-01ecfcf46a3f")
-		(property "Reference" "C20"
+		(property "Reference" "C23"
 			(at 53.34 40.6399 0)
 			(effects
 				(font
@@ -7665,6 +7578,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 139.7 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25c23808-42d4-49f5-8a6e-ec0022c80176")
+		(property "Reference" "#PWR038"
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_RX"
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54b8c2fc-63ce-473c-802b-d9895bcb3f64")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 233.68 142.24 0)
 		(unit 1)
@@ -7674,7 +7652,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27b3a39f-6835-4454-b12a-4989e1884ef7")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 237.49 140.9699 0)
 			(effects
 				(font
@@ -7750,7 +7728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bd3b7aa-ebde-4d55-865b-c147735a9cac")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 93.5833 156.21 0)
 			(effects
 				(font
@@ -7910,6 +7888,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 96.52 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31acbfe5-e49b-41e2-a86c-f35b9807e037")
+		(property "Reference" "#PWR06"
+			(at 96.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_RX"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99d66f43-c6fa-4167-834d-166979d8ac50")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_Parts:0479480001")
 		(at 66.04 35.56 0)
 		(unit 1)
@@ -7919,7 +7962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36916882-f355-41dd-8987-d283540b37ca")
-		(property "Reference" "U2"
+		(property "Reference" "U12"
 			(at 72.39 38.0999 0)
 			(effects
 				(font
@@ -8102,7 +8145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b52a35-ac8d-4633-a2a4-65b418e4348b")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 195.58 43.1799 0)
 			(effects
 				(font
@@ -8178,7 +8221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39753a15-d173-45d8-b438-6c9f7c78b378")
-		(property "Reference" "C21"
+		(property "Reference" "C1"
 			(at 63.5 95.2499 0)
 			(effects
 				(font
@@ -8254,7 +8297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b987849-1852-4e03-80fe-d2bea35e6b8f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR024"
 			(at 228.6 105.41 0)
 			(effects
 				(font
@@ -8326,7 +8369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fd6e074-e545-4aab-8e7e-5a3bee048a12")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 135.89 58.42 0)
 			(effects
 				(font
@@ -8398,7 +8441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41601edc-e017-40d5-acc7-a532c2fbd9aa")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR04"
 			(at 46.99 106.68 0)
 			(effects
 				(font
@@ -8470,7 +8513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4295f19f-abb8-4305-95c9-3453802781ea")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR022"
 			(at 220.98 154.94 0)
 			(effects
 				(font
@@ -8542,7 +8585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43c2f300-bbb8-44a4-a856-a8896034b4f3")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 184.15 43.1799 0)
 			(effects
 				(font
@@ -8618,7 +8661,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4bbde690-061a-4f03-932e-63232df614a4")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 266.7 134.9131 0)
 			(effects
 				(font
@@ -8694,7 +8737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ef99fcc-8b94-458f-a6b6-58ba9243027b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR01"
 			(at 130.81 106.68 0)
 			(effects
 				(font
@@ -8766,7 +8809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f21e50c-dd77-4800-bb51-61328a44c15c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR043"
 			(at 35.56 135.89 0)
 			(effects
 				(font
@@ -8838,7 +8881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f4fb0aa-3ca3-4673-a115-078cfe327885")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 133.35 109.22 90)
 			(effects
 				(font
@@ -8912,7 +8955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ff52a25-0da9-439b-a1a1-34233037e667")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 36.83 54.61 0)
 			(effects
 				(font
@@ -8984,7 +9027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "516c69ca-d779-4bf9-a226-c35733f01bb0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR020"
 			(at 193.04 152.4 0)
 			(effects
 				(font
@@ -9056,7 +9099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "527df969-82c0-4dd3-b6c8-c2a0f800e2a6")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR02"
 			(at 59.69 106.68 0)
 			(effects
 				(font
@@ -9128,7 +9171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5349c940-a644-4dc7-89ef-8b29ca462a6c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR017"
 			(at 180.34 57.15 0)
 			(effects
 				(font
@@ -9201,7 +9244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58cf60da-027b-4717-bb59-f167f9fd1af5")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 53.34 104.14 90)
 			(effects
 				(font
@@ -9275,7 +9318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ac37261-f218-4174-b09b-2891d1d54be6")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 53.34 121.158 90)
 			(effects
 				(font
@@ -9340,89 +9383,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 110.49 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cb9db2f-66d2-4895-aae4-b50202bcdb18")
-		(property "Reference" "#PWR022"
-			(at 110.49 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 110.49 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 110.49 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f693e3cf-e5a9-47d8-ae11-385f12ae7099")
-		)
-		(instances
-			(project ""
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 81.28 90.17 0)
+		(at 35.56 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fa8d05f-5402-4dbe-b11e-e13fdf01850d")
-		(property "Reference" "#PWR036"
-			(at 81.28 93.98 0)
+		(uuid "6759ade0-5bde-49a9-a852-304e659fd43a")
+		(property "Reference" "#PWR046"
+			(at 35.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9430,8 +9400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 81.28 85.09 0)
+		(property "Value" "3V3_RX"
+			(at 35.56 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,7 +9409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 90.17 0)
+			(at 35.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,7 +9418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 90.17 0)
+			(at 35.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +9427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 81.28 90.17 0)
+			(at 35.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,18 +9436,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "122057f5-32af-4a5b-9c8b-d07bba789960")
+			(uuid "9468d88d-1944-4c87-a456-ca2c13b88d2e")
 		)
 		(instances
-			(project "Receiver"
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR033")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9493,7 +9457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "682eaaf6-da60-47d1-a003-5e4b0d3e58ae")
-		(property "Reference" "C24"
+		(property "Reference" "C5"
 			(at 134.62 95.2499 0)
 			(effects
 				(font
@@ -9669,7 +9633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d95dfd-828f-45f3-a924-8f971bdaaa01")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 55.88 151.1299 0)
 			(effects
 				(font
@@ -9745,7 +9709,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "78de4f12-0966-42c0-a6c7-7bef5280c6a1")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 224.79 140.9699 0)
 			(effects
 				(font
@@ -9894,6 +9858,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 81.28 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b5614b6-cc68-4575-a541-d1b8864fccf3")
+		(property "Reference" "#PWR034"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_RX"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa37962-42fb-409a-bdbe-810e624a737d")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 158.75 0)
 		(unit 1)
@@ -9903,7 +9932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f007cc0-a1eb-4f79-b758-78d3dadf53d7")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 91.44 165.1 0)
 			(effects
 				(font
@@ -9975,7 +10004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80321c41-4932-43ee-8b7c-f252c5d70e85")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR03"
 			(at 45.72 167.64 0)
 			(effects
 				(font
@@ -10047,7 +10076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86da996e-07ed-480c-9995-b7bc861bb8b1")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR016"
 			(at 167.64 152.4 0)
 			(effects
 				(font
@@ -10118,7 +10147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8932a2c9-3f87-4a34-b4c4-2dceef4a85d4")
-		(property "Reference" "L1"
+		(property "Reference" "L5"
 			(at 43.18 30.48 90)
 			(effects
 				(font
@@ -10192,7 +10221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94cb75c8-ac43-488f-9531-38d8ebcdd476")
-		(property "Reference" "C16"
+		(property "Reference" "C8"
 			(at 124.46 95.2499 0)
 			(effects
 				(font
@@ -10268,7 +10297,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "980fe2f1-ca24-43c9-b827-ccd3f6296868")
-		(property "Reference" "L6"
+		(property "Reference" "L2"
 			(at 240.03 130.81 90)
 			(effects
 				(font
@@ -10342,7 +10371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a1b0afc-e085-4927-b64f-c54789634291")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR021"
 			(at 201.93 152.4 0)
 			(effects
 				(font
@@ -10414,7 +10443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f4e8f76-1fc3-44b1-997c-3c21e8979d35")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR029"
 			(at 259.08 54.61 0)
 			(effects
 				(font
@@ -10485,7 +10514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1acef60-5a8b-47a6-a006-fd3bb694e0da")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 32.258 151.13 0)
 			(effects
 				(font
@@ -10561,7 +10590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a25e749e-c4da-41e2-9d8d-168c2532cf1c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR012"
 			(at 110.49 58.42 0)
 			(effects
 				(font
@@ -10624,78 +10653,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 137.16 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a31f78bd-bef5-4390-9e66-36904f0edf6a")
-		(property "Reference" "#PWR041"
-			(at 137.16 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 137.16 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 137.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f2baacf-542d-41f9-915b-65e3e1c57190")
-		)
-		(instances
-			(project "Receiver"
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 66.04 91.44 90)
 		(unit 1)
@@ -10704,7 +10661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3bcad92-764e-41cc-9d38-13975d23cfc0")
-		(property "Reference" "L2"
+		(property "Reference" "L4"
 			(at 66.04 86.36 90)
 			(effects
 				(font
@@ -10843,18 +10800,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 40.64 107.95 0)
-		(mirror y)
+		(lib_id "power:+5V")
+		(at 110.49 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ae20994f-f180-4916-ae28-b011c5e7578a")
-		(property "Reference" "#PWR031"
-			(at 40.64 111.76 0)
+		(uuid "ae7d70a6-761e-4afb-9fc7-274fe8b668fc")
+		(property "Reference" "#PWR011"
+			(at 110.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10862,8 +10818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 40.64 102.87 0)
+		(property "Value" "5V"
+			(at 110.49 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10871,7 +10827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 107.95 0)
+			(at 110.49 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10880,7 +10836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 107.95 0)
+			(at 110.49 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10888,8 +10844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 107.95 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 110.49 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10898,18 +10854,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2800a76b-0392-401a-8c9b-f5cd1796381d")
+			(uuid "619a594e-109d-4196-afae-500de4fa9027")
 		)
 		(instances
-			(project "Receiver"
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-			(project "ThunderHorse"
+			(project ""
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR039")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10925,7 +10875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aed19cb2-81c9-44e2-bb2e-109ec0635aaf")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR010"
 			(at 120.65 106.68 0)
 			(effects
 				(font
@@ -10997,7 +10947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef6ece8-26eb-4670-aa8f-4c33ec827c7d")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 195.58 137.4531 0)
 			(effects
 				(font
@@ -11073,7 +11023,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b0417e13-1038-4ac7-bdae-7f4c4c6d1d75")
-		(property "Reference" "C15"
+		(property "Reference" "C18"
 			(at 252.73 128.27 90)
 			(effects
 				(font
@@ -11132,78 +11082,6 @@
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 259.08 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b573b794-b3d3-481c-a544-33576cd5d233")
-		(property "Reference" "#PWR05"
-			(at 259.08 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 259.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 259.08 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8864c7d7-2b51-407f-b35a-bd609edb5e79")
-		)
-		(instances
-			(project ""
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11286,6 +11164,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 135.89 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba6fa54d-63e1-4d11-911e-61f2feaeb239")
+		(property "Reference" "#PWR014"
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_RX"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d9695b3-6afc-4d98-81bf-8641a1db2f42")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 251.46 63.5 180)
 		(unit 1)
@@ -11295,7 +11238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc944af6-e854-43d5-9cb0-8e10be3008ba")
-		(property "Reference" "L4"
+		(property "Reference" "L3"
 			(at 252.73 62.2299 0)
 			(effects
 				(font
@@ -11362,6 +11305,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 40.64 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdd14a85-fc92-4de7-8a2a-aede04631185")
+		(property "Reference" "#PWR039"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_RX"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 40.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fb13b9e-c353-4adc-b685-cbbf35a90396")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 95.25 0)
 		(unit 1)
@@ -11371,7 +11379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be939094-ac7f-4ad5-a6ad-de9148494098")
-		(property "Reference" "C17"
+		(property "Reference" "C6"
 			(at 38.0837 93.9799 0)
 			(effects
 				(font
@@ -11447,7 +11455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf8060eb-9f15-476b-a03a-caeb5db25858")
-		(property "Reference" "C2"
+		(property "Reference" "C20"
 			(at 262.89 62.2299 0)
 			(effects
 				(font
@@ -11523,7 +11531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0f4c29a-e1b8-4411-8bb4-43bf5e425e6c")
-		(property "Reference" "C18"
+		(property "Reference" "C22"
 			(at 40.64 40.6399 0)
 			(effects
 				(font
@@ -11590,78 +11598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 135.89 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0ff8896-af66-42ed-b2db-874fd091f28b")
-		(property "Reference" "#PWR021"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 135.89 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "128596be-6097-46be-a1fe-82de6ea5a4fe")
-		)
-		(instances
-			(project "Receiver"
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 187.96 76.2 0)
 		(unit 1)
@@ -11671,7 +11607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c27f09fe-14a4-4bbb-98cb-68fccfc6502a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR018"
 			(at 187.96 82.55 0)
 			(effects
 				(font
@@ -11734,78 +11670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 86.36 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2fd9f99-c885-4318-a451-0d7e243d6982")
-		(property "Reference" "#PWR037"
-			(at 86.36 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 86.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 86.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1bb30c3-5f62-49a9-ae7f-61400dc296e3")
-		)
-		(instances
-			(project "Receiver"
-				(path "/073b6cc7-6d76-466f-8a69-83af0ccbf374"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 251.46 48.26 0)
 		(unit 1)
@@ -11815,7 +11679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3325d1e-3a33-49ce-b488-9247100a8b4b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR027"
 			(at 251.46 54.61 0)
 			(effects
 				(font
@@ -11887,7 +11751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4429702-c7a5-4113-8171-988fb24d0fbc")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 114.3 95.2499 0)
 			(effects
 				(font
@@ -12036,7 +11900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c905782c-ed47-4281-9ec5-96e0846b57d8")
-		(property "Reference" "U4"
+		(property "Reference" "U9"
 			(at 226.9333 43.18 0)
 			(effects
 				(font
@@ -12224,6 +12088,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 137.16 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9bb3fb6-f249-4327-9d90-dceb5af0edc4")
+		(property "Reference" "#PWR040"
+			(at 137.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9257a94-47d9-4cc0-aa19-191f8b3ba453")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/bc3cf81e-9940-4196-8a64-4d021e41ea8d"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 101.6 90.17 0)
 		(unit 1)
@@ -12232,7 +12162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9d732d2-6ab4-46dd-9887-efb23dbeeebb")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR08"
 			(at 101.6 93.98 0)
 			(effects
 				(font
@@ -12241,7 +12171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3_RX"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -12304,7 +12234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb282026-87f7-4cb9-b549-9b7143422f88")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR05"
 			(at 34.29 106.68 0)
 			(effects
 				(font
@@ -12376,7 +12306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8d68cf-145f-4de1-9175-f27f52838628")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR019"
 			(at 191.77 57.15 0)
 			(effects
 				(font
@@ -12448,7 +12378,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d034918a-f793-4e9a-bf72-96af66f11ed4")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 240.03 119.38 90)
 			(effects
 				(font
@@ -12522,7 +12452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d4eea8-350c-44c7-be36-61715a52c11c")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 130.81 121.9199 0)
 			(effects
 				(font
@@ -12598,7 +12528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbf6fc3e-6969-459d-bc51-5ae7c9aa0428")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR030"
 			(at 259.08 76.2 0)
 			(effects
 				(font
@@ -12772,7 +12702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de75c95b-bbbb-4cf1-a57c-1dace5c68fed")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR041"
 			(at 142.24 153.67 0)
 			(effects
 				(font
@@ -12844,7 +12774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3b18655-6151-49bf-a767-1d47041f0a63")
-		(property "Reference" "U1"
+		(property "Reference" "U11"
 			(at 123.19 30.48 0)
 			(effects
 				(font
@@ -12928,7 +12858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3ace0bb-1b0c-49e4-b4de-fd35e4ff6548")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR023"
 			(at 223.52 105.41 0)
 			(effects
 				(font
@@ -13000,7 +12930,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fb2e75c9-a30d-469d-988f-29dec998f90b")
-		(property "Reference" "L5"
+		(property "Reference" "L1"
 			(at 227.33 130.81 90)
 			(effects
 				(font
