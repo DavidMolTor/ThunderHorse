@@ -1921,130 +1921,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 147.32 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7803c71b-bf1c-4297-bea7-d886f7f8300c")
-		(property "Reference" "J1"
-			(at 147.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 147.32 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Parts:HH-16P-CB-TYPE-C"
-			(at 151.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 151.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 147.32 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B5"
-			(uuid "31416bda-b904-40f5-afc3-36aa6cf21624")
-		)
-		(pin "B8"
-			(uuid "21e9ec2e-10e5-408d-9664-399492b07153")
-		)
-		(pin "B9"
-			(uuid "dd076c34-6553-4628-9146-f89043b741b6")
-		)
-		(pin "A7"
-			(uuid "64d8ba0e-5617-4be0-a7f9-522d185e62e3")
-		)
-		(pin "A4"
-			(uuid "342dcbe6-95ff-4114-83b0-dd9462b504a5")
-		)
-		(pin "A1"
-			(uuid "dda8398c-c584-4a56-9bf9-6dc96ff55e12")
-		)
-		(pin "A6"
-			(uuid "07cb3d29-f823-4c82-932d-92432a070f33")
-		)
-		(pin "B1"
-			(uuid "1c5ab30b-8447-4be4-88bc-3c4eda470fb3")
-		)
-		(pin "A9"
-			(uuid "de714278-e8a6-4abe-8cea-b532f2fa478e")
-		)
-		(pin "B6"
-			(uuid "f5fa0405-3ffc-4073-8a05-5407dd439099")
-		)
-		(pin "A8"
-			(uuid "63457b21-5794-4b7c-9aa4-2672ceae7474")
-		)
-		(pin "S1"
-			(uuid "78c94539-90fb-4c4a-bfdf-9201075205c6")
-		)
-		(pin "A12"
-			(uuid "d2e80b90-1265-42ec-9bd6-05cdb3580835")
-		)
-		(pin "B4"
-			(uuid "b50503ea-7de2-46bd-b5b2-d42b22bb6937")
-		)
-		(pin "A5"
-			(uuid "ce83e314-4215-45f8-98ba-6fec25b97174")
-		)
-		(pin "B12"
-			(uuid "630dda3e-ed5e-4f36-afb4-7c2c1b3d2069")
-		)
-		(pin "B7"
-			(uuid "aac662de-3b70-42ea-8c26-20a4d26035ea")
-		)
-		(instances
-			(project ""
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/18f92408-e59e-47fb-af3d-1bd4cb05bcc2"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_RaspberryPi:RP2350A")
-		(at 81.28 95.25 0)
+		(at 82.55 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af9bb2e1-f265-41f2-8859-dff2ceb432f1")
-		(property "Reference" "U1"
-			(at 83.4233 139.7 0)
+		(uuid "b66fb1ff-e9e0-4bfc-ab54-640f952208ba")
+		(property "Reference" "U7"
+			(at 84.6933 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +1940,7 @@
 			)
 		)
 		(property "Value" "RP2350A"
-			(at 83.4233 142.24 0)
+			(at 84.6933 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +1949,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:RP2350A_QFN-60_EP_7.75x7.75_Pitch0.4mm"
-			(at 81.28 95.25 0)
+			(at 82.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +1958,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf"
-			(at 81.28 95.25 0)
+			(at 82.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +1967,7 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi, dual CPU architecture (ARM Cortex-M33 / RISC-V Hazard3), 150MHz, no flash, 520KB SRAM, 12 PIO state machines, VQFN-60"
-			(at 81.28 95.25 0)
+			(at 82.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +1976,7 @@
 			)
 		)
 		(property private "KLC_S4.2_DVDD" "Not a standalone power converter; internal on-chip voltage regulator for digital core supply; DVDD is the digital core power supply, should be placed next to voltage regulator output."
-			(at 81.28 97.79 0)
+			(at 82.55 113.03 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2099,7 +1986,7 @@
 			)
 		)
 		(property private "KLC_S4.2_VREG_LX" "Should be placed next to DVDD."
-			(at 81.28 97.79 0)
+			(at 82.55 113.03 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2109,192 +1996,305 @@
 			)
 		)
 		(pin "47"
-			(uuid "fa98983e-23d0-49cf-bce0-0f40a6ca1def")
+			(uuid "d80d7f11-505f-4398-95f6-899ad1c68320")
 		)
 		(pin "6"
-			(uuid "03bdfcf2-23cb-4d14-87dd-5159b576213d")
+			(uuid "86dc1be0-aecf-4f4d-b48e-a91e2aa1f5de")
 		)
 		(pin "26"
-			(uuid "d2dd1acb-3093-4762-b7b9-d88d4c31e17f")
+			(uuid "fe0e7070-5bd2-4a98-8273-d70261fbee75")
 		)
 		(pin "60"
-			(uuid "8f82d3ce-a621-4a83-97c5-cce728e311e0")
+			(uuid "c97aa0d9-847e-44fe-98bb-65702586a753")
 		)
 		(pin "39"
-			(uuid "ae5ea05f-476f-477c-8c7a-580fe4d5f1c4")
+			(uuid "5354b6c3-99eb-416c-869c-4418b7ac9a38")
 		)
 		(pin "51"
-			(uuid "b3e64666-6462-442d-99e0-9f7e317580c8")
+			(uuid "47f5a2e5-adfc-4b2b-9c13-68f8ea14226b")
 		)
 		(pin "52"
-			(uuid "7b363e5a-589d-44f0-8dff-32373fb03289")
+			(uuid "ded91e5b-40cf-48bc-9d48-8a687ca2e306")
 		)
 		(pin "46"
-			(uuid "82f5e75d-860b-4219-891a-48e50824a15c")
+			(uuid "c0cb9f10-0ee9-4aa7-bab2-05b2b6692a01")
 		)
 		(pin "53"
-			(uuid "6ea46956-aa74-4a7f-b478-ae60410ae741")
+			(uuid "9b22a6b2-9cc4-44fc-8269-a13b9bad4594")
 		)
 		(pin "56"
-			(uuid "5b19c9bc-8c4c-4280-9c11-b595f496cbdb")
+			(uuid "634ccf43-50c7-42f3-97bd-3ce89105610c")
 		)
 		(pin "54"
-			(uuid "1ae4fc0e-6e58-4245-920f-d95a0146a6ae")
+			(uuid "d7bed4b2-9f8d-4f29-9d70-42aa51fe73f6")
 		)
 		(pin "44"
-			(uuid "ae29464b-6ee2-44eb-b5a1-bd55508e9640")
+			(uuid "8798fbe0-57aa-41aa-b295-ed37723bbf7b")
 		)
 		(pin "7"
-			(uuid "632c3a80-32d4-40b6-9092-e18e171688d4")
+			(uuid "ab3d13a0-dc52-4f19-bc8d-e29d58f14d09")
 		)
 		(pin "11"
-			(uuid "a1caedb3-ae79-421b-8b11-f4fbe20872e4")
+			(uuid "e140b94f-513f-4492-958b-deaa0899e852")
 		)
 		(pin "38"
-			(uuid "28741457-e837-42bf-a16d-b5905078722c")
+			(uuid "cbb5167d-36ec-4016-a7db-d7cd976d0d7e")
 		)
 		(pin "12"
-			(uuid "baefc74e-0bd5-4a4c-8dfa-03bde9625cf6")
+			(uuid "16507560-1250-4b2a-bc43-65c0151aa91a")
 		)
 		(pin "5"
-			(uuid "ba4d30d9-1ac5-46bf-96e1-3a01d2ca2c27")
+			(uuid "47890185-c3cb-4454-934c-5a6e3f9d94c1")
 		)
 		(pin "23"
-			(uuid "5dacee7a-3612-448f-a4dc-8e4b9ff89164")
+			(uuid "b16020c6-5eaf-413a-beb0-19574a2ed570")
 		)
 		(pin "22"
-			(uuid "04e6c9fe-02f4-4256-8257-97452ac14656")
+			(uuid "02b30e15-c8db-4ee5-9ca1-cd8c2c50a885")
 		)
 		(pin "24"
-			(uuid "db647e43-14f3-4934-a4ea-65cc91563d52")
+			(uuid "3bdb5178-39ee-4b56-ba63-471c863cd291")
 		)
 		(pin "58"
-			(uuid "a206c436-4d9d-4111-b98a-b04eae61fd7b")
+			(uuid "c872060b-5396-474f-b082-179c85fdc9be")
 		)
 		(pin "20"
-			(uuid "ee1c437b-6fb2-41e5-a0fc-cabb46dc37ac")
+			(uuid "953cfbc1-1371-4d82-b360-4092e426a0dc")
 		)
 		(pin "30"
-			(uuid "6b0efc55-e576-48a9-bafa-3130c836bd3d")
+			(uuid "0825f12b-0e5f-4fa0-94ce-aca7efc1843d")
 		)
 		(pin "57"
-			(uuid "2e5d362c-d029-4656-a68a-ef04856449ef")
+			(uuid "aa766da6-d158-4225-877b-4e3c0876a9d6")
 		)
 		(pin "55"
-			(uuid "b5e35640-08ad-486f-95b3-35f57b221966")
+			(uuid "5229a8e4-d17d-4763-b07f-6c0922a53eb9")
 		)
 		(pin "45"
-			(uuid "336f75e3-151e-41d2-af63-b9e912a26985")
+			(uuid "515ac62f-c867-4230-86c5-e8a8b13bb796")
 		)
 		(pin "1"
-			(uuid "5be2cf36-4789-46f1-b4a6-9311477bbab8")
+			(uuid "235289d2-792c-4b50-bef8-03bb9a4aedf2")
 		)
 		(pin "49"
-			(uuid "618d35f2-fc22-4c90-9130-9d0c8a396143")
+			(uuid "9363dfde-34cd-4173-a145-df627a449090")
 		)
 		(pin "48"
-			(uuid "570c1d73-a49e-4554-b3c6-90ce589f428a")
+			(uuid "8b76b8bf-6552-4a92-aa12-4a8701814832")
 		)
 		(pin "21"
-			(uuid "62d61f1d-d16e-4045-8507-5ba532732c7c")
+			(uuid "f030f904-03f8-4026-b344-f9cc863617eb")
 		)
 		(pin "61"
-			(uuid "8b5f1211-6989-4500-84d0-fe6b2360117f")
+			(uuid "30c33108-26c2-467a-a03d-7f5dcdf31310")
 		)
 		(pin "50"
-			(uuid "8e8df97b-fe9e-4871-be15-3288f7f54e58")
+			(uuid "13fd652b-d561-4065-bbc0-309daa125137")
 		)
 		(pin "3"
-			(uuid "732110f1-39c4-4241-96ea-ea9987c2cdaa")
+			(uuid "47bde16f-49a6-4e13-bbd5-67c3aa93c252")
 		)
 		(pin "4"
-			(uuid "993391b3-3d62-453f-afd7-b6c9f6772ba4")
+			(uuid "15c724bf-5597-4cb3-baad-4a0886544d4c")
 		)
 		(pin "59"
-			(uuid "de273fe8-b3e5-4f73-8e61-8fff42f36ca0")
+			(uuid "b405405d-e8d3-4077-b4a5-185ab0f1afa5")
 		)
 		(pin "25"
-			(uuid "b369bc34-7204-4473-bee5-466732bb0728")
+			(uuid "7568dd98-d0ef-4eb2-aa28-524fec450e79")
 		)
 		(pin "2"
-			(uuid "b622f253-3bf2-4a6f-b0d2-b772084fc116")
+			(uuid "942b1fae-56e8-4a65-83fa-746434de74d1")
 		)
 		(pin "8"
-			(uuid "823acfbd-b2b7-4804-b254-9b5f3d529687")
+			(uuid "86ff7b95-d5ac-439c-8904-df9ed99ea37d")
 		)
 		(pin "9"
-			(uuid "b08f3db5-bd9b-4d72-90f4-f6d13cfb2a26")
+			(uuid "92716b96-3dbf-433e-bca4-b04d76caf9f8")
 		)
 		(pin "10"
-			(uuid "816869e3-5664-485f-8f4b-bc0bb0e3ab3c")
+			(uuid "7a703205-af7a-4572-8104-872dbcb37377")
 		)
 		(pin "28"
-			(uuid "d19d901c-73fb-4c6b-be9d-cd672f77252c")
+			(uuid "bdb319c7-677e-495b-85c3-75c7cbc7244a")
 		)
 		(pin "37"
-			(uuid "902d2b25-708e-4135-a2d8-aa7857c71330")
+			(uuid "13e477b4-3bfe-40d7-b774-5a1cf9d2ff7e")
 		)
 		(pin "43"
-			(uuid "9d76fda6-6ba6-475f-85e7-a25bba4eb84c")
+			(uuid "576576d7-1dc5-4119-a942-f1525f7122fd")
 		)
 		(pin "14"
-			(uuid "604b27e0-b057-4f73-94b4-53c59a91e72e")
+			(uuid "558e1197-f178-4831-9164-fc4037bdb18a")
 		)
 		(pin "35"
-			(uuid "ea566ce5-99fb-4aef-8ae3-0d0d0611a56f")
+			(uuid "ff37412a-5a59-496d-91fc-81ec897ff3e3")
 		)
 		(pin "36"
-			(uuid "8587c825-cf0a-4cde-9510-178290af147f")
+			(uuid "9314c000-b2bf-4f1a-b572-663cb9cf807f")
 		)
 		(pin "42"
-			(uuid "b74cdd3d-ac25-4d87-93a6-638bedaf60de")
+			(uuid "b77653fb-271f-49f4-8bbe-c383577a0d16")
 		)
 		(pin "33"
-			(uuid "575e1cbe-e112-48c6-a47f-99f88cd8452b")
+			(uuid "d9d3c552-c139-4a72-bf74-c548f94682d7")
 		)
 		(pin "17"
-			(uuid "195a9a19-8a3f-4684-ac62-06cec0bbfe3a")
+			(uuid "654e204c-3e73-4031-b007-52e8803b52ae")
 		)
 		(pin "13"
-			(uuid "7f098fdc-ac55-471d-ad0b-8362e8ca60cc")
+			(uuid "c2fc98c0-2413-4fe8-90c1-81aeacc5c674")
 		)
 		(pin "18"
-			(uuid "8957dcfe-1c4c-4d67-839c-92c0dd574a02")
+			(uuid "ed406280-963d-49c5-9859-7b0389315827")
 		)
 		(pin "34"
-			(uuid "e358a597-9f7b-4f5f-97f0-3167874dd135")
+			(uuid "8b0608a6-1d27-4a95-87be-ec36f45fb168")
 		)
 		(pin "40"
-			(uuid "ca4e5e69-49a5-429a-ada4-ac731a39f92e")
+			(uuid "bbe72445-b925-4115-9930-5fc9d8a6222e")
 		)
 		(pin "27"
-			(uuid "ce3ae3f5-85b4-447a-88b5-17d219134238")
+			(uuid "fea6e3dc-af55-432e-867e-c1877d5effb4")
 		)
 		(pin "15"
-			(uuid "0d1df562-4648-4098-bb49-e915b0cb8b8a")
+			(uuid "7d2b7b62-ddf0-4abe-86de-37ebdbb65f32")
 		)
 		(pin "19"
-			(uuid "3931ddea-02ec-4d83-b8a1-98d13a535a6b")
+			(uuid "8ce52abe-acee-4fe6-92cc-2b37701ba5a7")
 		)
 		(pin "16"
-			(uuid "ee2ad684-ad15-47ca-abd2-36e53b554c83")
+			(uuid "884715b6-b932-40cf-b61a-f4b751729b9f")
 		)
 		(pin "29"
-			(uuid "38802eec-81ac-49e5-86d1-477e49aa7547")
+			(uuid "39d6b73b-0142-4f0b-b7f9-6c42b5821bb1")
 		)
 		(pin "31"
-			(uuid "53bd115b-e2bf-4e89-badf-13b7ad7dd655")
+			(uuid "968db9b6-eb04-4c7c-9c87-02939164f8bd")
 		)
 		(pin "32"
-			(uuid "411ea21d-43bd-4678-a2b9-211d272c9667")
+			(uuid "91508a78-b063-4133-b0ac-eb1b220a9261")
 		)
 		(pin "41"
-			(uuid "3596c237-a4bc-49cc-99fd-8ad0454aae9e")
+			(uuid "a2e662fe-fb4b-4973-9330-0097804155a0")
 		)
 		(instances
-			(project ""
+			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/18f92408-e59e-47fb-af3d-1bd4cb05bcc2"
-					(reference "U1")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 148.59 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cce68495-d6bf-44f0-8c3f-ef4272d7da1e")
+		(property "Reference" "J6"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Parts:HH-16P-CB-TYPE-C"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B5"
+			(uuid "72ef9604-4b16-45b5-a60f-d0b8b3152bdf")
+		)
+		(pin "B8"
+			(uuid "ef7578ee-6843-4ccf-bdfb-bf1a9f9546a3")
+		)
+		(pin "B9"
+			(uuid "4bb0537f-71dc-464b-a7be-3be451f76ea8")
+		)
+		(pin "A7"
+			(uuid "98f5b66c-e6f5-4abd-97e9-b0b26c91b42e")
+		)
+		(pin "A4"
+			(uuid "298d41cb-ef30-4583-955a-1d3a0ba78edf")
+		)
+		(pin "A1"
+			(uuid "e546bfdf-f5a0-4ca5-8998-fa72ebba4e48")
+		)
+		(pin "A6"
+			(uuid "b207891e-eb65-4dfa-895a-0f1dc5110897")
+		)
+		(pin "B1"
+			(uuid "9d24b494-1d76-4b1a-8997-5e7dfef65fc6")
+		)
+		(pin "A9"
+			(uuid "2b70bcca-6cb9-46ae-8fc0-7c0fc73d9378")
+		)
+		(pin "B6"
+			(uuid "0bc072b2-3c79-4089-915b-5734b4de60b2")
+		)
+		(pin "A8"
+			(uuid "ebebb122-71dd-433c-b37e-5f6ca4f1c96f")
+		)
+		(pin "S1"
+			(uuid "b331a283-9e9e-4d5f-83e3-10e6bd5609a9")
+		)
+		(pin "A12"
+			(uuid "1aea7e0c-7e34-43a9-b08f-d33d828a607f")
+		)
+		(pin "B4"
+			(uuid "de8446ad-4942-40fc-9dbc-d40498029344")
+		)
+		(pin "A5"
+			(uuid "533c1703-acea-4821-a189-5e0c06b7a46d")
+		)
+		(pin "B12"
+			(uuid "60e0cc9e-490f-42ff-b08b-68bdf963779a")
+		)
+		(pin "B7"
+			(uuid "633a0a4a-79dc-49b7-b995-c0eb581b7f57")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/18f92408-e59e-47fb-af3d-1bd4cb05bcc2"
+					(reference "J6")
 					(unit 1)
 				)
 			)
