@@ -4080,7 +4080,7 @@
 		)
 		(uuid "fddbfbb1-f753-4531-bb0b-2fa7fddb18a0")
 	)
-	(global_label "ESC_1"
+	(global_label "ESC1"
 		(shape input)
 		(at 106.68 63.5 0)
 		(fields_autoplaced yes)
@@ -4092,7 +4092,7 @@
 		)
 		(uuid "81685dc9-2dcb-4b1e-b87e-1d67a5bd048a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.4708 63.5 0)
+			(at 114.5032 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
