@@ -1739,7 +1739,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GDS"
+		(symbol "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1756,7 +1756,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_GDS"
+			(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D1"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1766,7 +1766,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 2.54 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1775,7 +1775,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1783,8 +1783,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
-				(at 0 0 0)
+			(property "Description" "Dual NMOS transistor, 6 pin package"
+				(at 2.286 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1801,7 +1801,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_GDS_0_1"
+			(symbol "Q_Dual_NMOS_S1G1S2G2D2D1_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1968,7 +1968,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GDS_1_1"
+			(symbol "Q_Dual_NMOS_S1G1S2G2D2D1_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1979,7 +1979,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1997,7 +1997,63 @@
 							)
 						)
 					)
-					(number "2"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_S1G1S2G2D2D1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4097,6 +4153,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
+		(at 238.76 95.25 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0905f983-9bcc-4b05-94a0-39a0778a10ec")
+		(property "Reference" "Q7"
+			(at 245.11 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XRS306D"
+			(at 245.11 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:PDFN8"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 241.046 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "42ae43d9-ff39-45f3-bd35-0efa73a920cc")
+		)
+		(pin "5"
+			(uuid "32a77398-244f-479b-90d3-68bccbb048ee")
+		)
+		(pin "3"
+			(uuid "d9b61797-f780-43d3-aaa2-dbc19a1d303b")
+		)
+		(pin "1"
+			(uuid "a2831e5f-8791-4841-a0f3-8fc325e5701b")
+		)
+		(pin "4"
+			(uuid "8131a795-a7b5-4fbe-9ee5-3a5685637b75")
+		)
+		(pin "2"
+			(uuid "1c199296-a839-4d4b-bc7d-48221eeb9eb6")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
+					(reference "Q7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32G0:STM32G071GBUxN")
 		(at 68.58 69.85 0)
 		(unit 1)
@@ -4106,7 +4244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09cfd8c9-2afa-4f53-b51a-f05b2056773b")
-		(property "Reference" "U7"
+		(property "Reference" "U17"
 			(at 70.7233 39.37 0)
 			(effects
 				(font
@@ -4239,7 +4377,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "U7")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -4254,7 +4392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a734092-6c22-40d6-8c2d-a5a15a8ec357")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0157"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -4304,7 +4442,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0130")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -4320,7 +4458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e15c8c5-0650-4337-a4d3-ca0f5c8623dd")
-		(property "Reference" "R51"
+		(property "Reference" "R58"
 			(at 227.33 119.38 90)
 			(effects
 				(font
@@ -4336,7 +4474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 127.508 90)
 			(effects
 				(font
@@ -4372,7 +4510,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R51")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -4388,7 +4526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15dd1278-7721-421f-90b2-4814295048f4")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0160"
 			(at 140.97 54.61 0)
 			(effects
 				(font
@@ -4438,7 +4576,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0133")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -4453,7 +4591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16d1e56c-de03-4f19-bfc1-ab4020b05c26")
-		(property "Reference" "R44"
+		(property "Reference" "R51"
 			(at 153.67 136.398 90)
 			(effects
 				(font
@@ -4469,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.67 135.128 90)
 			(effects
 				(font
@@ -4505,7 +4643,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R44")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -4521,7 +4659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc9fc47-f6d6-415c-9149-10d1328e1b65")
-		(property "Reference" "C60"
+		(property "Reference" "C71"
 			(at 144.78 40.6399 0)
 			(effects
 				(font
@@ -4539,7 +4677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 141.9352 45.72 0)
 			(effects
 				(font
@@ -4575,7 +4713,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "C60")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -4591,7 +4729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a1657ea-c3df-48e5-93a8-1b18c3f051f7")
-		(property "Reference" "U15"
+		(property "Reference" "U18"
 			(at 158.1786 41.91 0)
 			(effects
 				(font
@@ -4703,7 +4841,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "U15")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -4719,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eae6ca8-a5d5-4ee5-ba08-b5b4d13e5044")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0169"
 			(at 241.3 121.92 0)
 			(effects
 				(font
@@ -4769,7 +4907,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0142")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33240324-d415-46b1-883f-c2bb86e6c5dc")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0159"
 			(at 113.03 152.4 0)
 			(effects
 				(font
@@ -4835,7 +4973,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0132")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -4850,7 +4988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "339e482b-4f14-4694-8be8-f8bca179769b")
-		(property "Reference" "R41"
+		(property "Reference" "R48"
 			(at 106.68 136.398 90)
 			(effects
 				(font
@@ -4866,7 +5004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.68 135.128 90)
 			(effects
 				(font
@@ -4902,7 +5040,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R41")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4918,7 +5056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40025ee2-063b-4e55-b527-3ba4fb6eee0c")
-		(property "Reference" "R52"
+		(property "Reference" "R59"
 			(at 227.33 132.08 90)
 			(effects
 				(font
@@ -4934,7 +5072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 140.208 90)
 			(effects
 				(font
@@ -4970,24 +5108,24 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R52")
+					(reference "R59")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 238.76 125.73 0)
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
+		(at 238.76 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40b94106-c326-4b3a-8952-0f3d844afa87")
-		(property "Reference" "Q12"
-			(at 245.11 124.4599 0)
+		(uuid "455fa7ae-8534-4986-b700-9ef7bb52d070")
+		(property "Reference" "Q7"
+			(at 245.11 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,8 +5133,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 245.11 126.9999 0)
+		(property "Value" "XRS306D"
+			(at 245.11 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,8 +5142,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 243.84 123.19 0)
+		(property "Footprint" "Custom_Parts:PDFN8"
+			(at 243.84 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 125.73 0)
+			(at 243.84 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,28 +5160,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 238.76 125.73 0)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 241.046 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "6"
+			(uuid "971b4faf-1e40-4264-a720-ca46137a497e")
+		)
+		(pin "5"
+			(uuid "b2b1b6bc-7eea-47d9-958f-9f06399bdd3e")
 		)
 		(pin "3"
-			(uuid "17d70848-ed98-4db1-a831-7e392da2f4e9")
-		)
-		(pin "2"
-			(uuid "599bdf21-72b3-4d67-8671-dd89bb8d9047")
+			(uuid "329f8f0b-9780-42e6-839c-e0ba2af18461")
 		)
 		(pin "1"
-			(uuid "8e1cd70d-ac1e-4955-9f0a-bd748728f030")
+			(uuid "dac730ff-93c0-4025-9577-1c2eb5ae26e8")
+		)
+		(pin "4"
+			(uuid "fc468012-1619-4134-a502-740d1bf00464")
+		)
+		(pin "2"
+			(uuid "b991b104-1248-4fb8-8bd7-038a03c04a38")
 		)
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q12")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -5059,7 +5206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53da47b4-9c44-481e-a9a2-55671d46dd84")
-		(property "Reference" "R50"
+		(property "Reference" "R57"
 			(at 227.33 88.9 90)
 			(effects
 				(font
@@ -5075,7 +5222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 97.028 90)
 			(effects
 				(font
@@ -5111,7 +5258,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R50")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -5127,7 +5274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57d8a758-140e-461e-bea6-45e302c7e63b")
-		(property "Reference" "R47"
+		(property "Reference" "R54"
 			(at 227.33 33.02 90)
 			(effects
 				(font
@@ -5143,7 +5290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 41.148 90)
 			(effects
 				(font
@@ -5179,7 +5326,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R47")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -5195,7 +5342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dbcd288-ceb5-4ee8-880d-428f528462ae")
-		(property "Reference" "C61"
+		(property "Reference" "C72"
 			(at 184.15 44.45 90)
 			(effects
 				(font
@@ -5211,7 +5358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.96 51.1048 0)
 			(effects
 				(font
@@ -5247,7 +5394,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "C61")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -5263,7 +5410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72573123-fd1a-4b4a-a4ec-cfa254405623")
-		(property "Reference" "C59"
+		(property "Reference" "C70"
 			(at 45.72 44.4499 0)
 			(effects
 				(font
@@ -5281,7 +5428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.8752 49.53 0)
 			(effects
 				(font
@@ -5317,7 +5464,89 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "C59")
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
+		(at 238.76 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75a1cf09-08f9-4cb2-bfa8-3f6645c12af3")
+		(property "Reference" "Q8"
+			(at 245.11 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XRS306D"
+			(at 245.11 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:PDFN8"
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 241.046 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5ecba9e5-a6fa-46ff-9a8c-60d175eeeaa4")
+		)
+		(pin "5"
+			(uuid "b2b1b6bc-7eea-47d9-958f-9f06399bdd3f")
+		)
+		(pin "3"
+			(uuid "329f8f0b-9780-42e6-839c-e0ba2af18462")
+		)
+		(pin "1"
+			(uuid "dc3a3a90-4297-4659-9abc-df7a0f2e9f1a")
+		)
+		(pin "4"
+			(uuid "fc468012-1619-4134-a502-740d1bf00465")
+		)
+		(pin "2"
+			(uuid "ef19ed18-e062-46ae-87d2-2b8ea2c0dc38")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -5333,7 +5562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7647856a-f053-45ca-8458-ec5d1da94915")
-		(property "Reference" "C63"
+		(property "Reference" "C74"
 			(at 184.15 72.39 90)
 			(effects
 				(font
@@ -5349,7 +5578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.96 79.0448 0)
 			(effects
 				(font
@@ -5385,7 +5614,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "C63")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -5401,7 +5630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "773e63cf-6f53-40a6-a478-c1e20103ab78")
-		(property "Reference" "R49"
+		(property "Reference" "R56"
 			(at 227.33 76.2 90)
 			(effects
 				(font
@@ -5417,7 +5646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 84.328 90)
 			(effects
 				(font
@@ -5453,7 +5682,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R49")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -5469,7 +5698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8023fc07-8a65-4f7e-99fe-8f2acb030751")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0163"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -5519,7 +5748,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0136")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -5535,7 +5764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d86976-37f9-44b9-b4b8-f0a5bd628e98")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0168"
 			(at 241.3 109.22 0)
 			(effects
 				(font
@@ -5585,80 +5814,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 238.76 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8876aeab-bc67-4c14-9c16-ce56e7843ce5")
-		(property "Reference" "Q9"
-			(at 245.11 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 245.11 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 238.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c03781ae-d971-42bb-b147-c212ca395dea")
-		)
-		(pin "2"
-			(uuid "7fb3f7df-8d09-4520-9eed-2caf2061ceee")
-		)
-		(pin "1"
-			(uuid "ab895fc1-dda4-4704-9563-df23c0977dbc")
-		)
-		(instances
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q9")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a336be7-061b-4fa9-99a5-c75e44df6c88")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0170"
 			(at 241.3 152.4 0)
 			(effects
 				(font
@@ -5724,7 +5880,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0143")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b8929f8-3350-4f84-adbe-e650607c0f08")
-		(property "Reference" "R42"
+		(property "Reference" "R49"
 			(at 115.57 125.7299 0)
 			(effects
 				(font
@@ -5758,7 +5914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.252 127 90)
 			(effects
 				(font
@@ -5794,7 +5950,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R42")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5810,7 +5966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bfe5d75-a965-4fdb-bac5-bec4bf5c3dda")
-		(property "Reference" "R48"
+		(property "Reference" "R55"
 			(at 227.33 45.72 90)
 			(effects
 				(font
@@ -5826,7 +5982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 227.33 53.848 90)
 			(effects
 				(font
@@ -5862,8 +6018,90 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R48")
+					(reference "R55")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
+		(at 238.76 138.43 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e6a0b3c-10d8-4171-b9ca-411b028242e0")
+		(property "Reference" "Q8"
+			(at 245.11 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XRS306D"
+			(at 245.11 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:PDFN8"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 241.046 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "42ae43d9-ff39-45f3-bd35-0efa73a920cd")
+		)
+		(pin "5"
+			(uuid "379ca9bb-8678-42f9-ad8e-032ce044690c")
+		)
+		(pin "3"
+			(uuid "2ff1378c-6b02-4d6a-bb3e-ee29e56091ae")
+		)
+		(pin "1"
+			(uuid "a2831e5f-8791-4841-a0f3-8fc325e5701c")
+		)
+		(pin "4"
+			(uuid "b7be4feb-9c77-42f0-820c-b0f0981652e5")
+		)
+		(pin "2"
+			(uuid "1c199296-a839-4d4b-bc7d-48221eeb9eb7")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
+					(reference "Q8")
+					(unit 2)
 				)
 			)
 		)
@@ -5878,7 +6116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91ada21d-c50e-4f64-b0e6-e86027691dfe")
-		(property "Reference" "R38"
+		(property "Reference" "R45"
 			(at 68.58 125.7299 0)
 			(effects
 				(font
@@ -5896,7 +6134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.262 127 90)
 			(effects
 				(font
@@ -5932,7 +6170,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R38")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5948,7 +6186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93f796e5-02c7-4f33-8e05-0809417f5130")
-		(property "Reference" "C62"
+		(property "Reference" "C73"
 			(at 184.15 58.42 90)
 			(effects
 				(font
@@ -5964,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.96 65.0748 0)
 			(effects
 				(font
@@ -6000,7 +6238,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "C62")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -6016,7 +6254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94f7ca2f-dc46-475e-8494-c6e71efb7511")
-		(property "Reference" "R46"
+		(property "Reference" "R53"
 			(at 162.56 138.4299 0)
 			(effects
 				(font
@@ -6034,7 +6272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.242 139.7 90)
 			(effects
 				(font
@@ -6070,7 +6308,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R46")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -6086,7 +6324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "991c5376-7efc-495c-a1a4-51944848b6fe")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0166"
 			(at 241.3 66.04 0)
 			(effects
 				(font
@@ -6136,7 +6374,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0139")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -6152,7 +6390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a32813a-647a-4e2c-af50-dfd0422384d3")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0154"
 			(at 30.48 58.42 0)
 			(effects
 				(font
@@ -6202,7 +6440,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0127")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -6218,7 +6456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f285626-ed0d-4a6b-b105-f504a3a0391a")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0158"
 			(at 68.58 104.14 0)
 			(effects
 				(font
@@ -6268,7 +6506,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0131")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -6284,7 +6522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c65768-67d0-4d4c-a1ef-d98f384aea88")
-		(property "Reference" "R40"
+		(property "Reference" "R47"
 			(at 101.6 58.42 90)
 			(effects
 				(font
@@ -6300,7 +6538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 66.548 90)
 			(effects
 				(font
@@ -6336,7 +6574,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R40")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7551c04-f1cb-48a9-9662-a2727a6bd63f")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0156"
 			(at 66.04 152.4 0)
 			(effects
 				(font
@@ -6402,7 +6640,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0129")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -6418,7 +6656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a79127d3-851a-4bec-af26-a05c7eea99f8")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0165"
 			(at 241.3 35.56 0)
 			(effects
 				(font
@@ -6468,7 +6706,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0138")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -6484,7 +6722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "addf6ed2-30e6-4b74-8ebb-71012eced503")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 250.19 130.8099 0)
 			(effects
 				(font
@@ -6535,80 +6773,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 238.76 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b57953f2-abac-4f2b-b26c-1232b67d7696")
-		(property "Reference" "Q13"
-			(at 245.11 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 245.11 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 238.76 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c9a31dcb-3f90-423f-bae3-c0dd38be5303")
-		)
-		(pin "2"
-			(uuid "a0e07672-42fd-4057-be09-c1baa1ea53b4")
-		)
-		(pin "1"
-			(uuid "2a3aea5c-5f5d-456f-84b1-5a90f06ba53e")
-		)
-		(instances
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6624,7 +6789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bba38aa3-9378-4ec1-8463-afab67243f84")
-		(property "Reference" "R43"
+		(property "Reference" "R50"
 			(at 115.57 138.4299 0)
 			(effects
 				(font
@@ -6642,7 +6807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.252 139.7 90)
 			(effects
 				(font
@@ -6678,7 +6843,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R43")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -6693,7 +6858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbc7fc92-ee7a-48ee-a8e3-534fc3fc324e")
-		(property "Reference" "TP15"
+		(property "Reference" "TP14"
 			(at 102.87 80.01 90)
 			(effects
 				(font
@@ -6744,226 +6909,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 238.76 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd55c082-7544-4042-964c-d37723df4357")
-		(property "Reference" "Q11"
-			(at 245.11 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 245.11 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ff956b57-2a47-414d-8f47-7752b2b091ca")
-		)
-		(pin "2"
-			(uuid "fec8701b-df75-46a9-ae58-a9f0dcd6f73b")
-		)
-		(pin "1"
-			(uuid "7e8cd165-ccf4-4819-af9c-0f7fd20166b5")
-		)
-		(instances
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 238.76 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbcde2fd-684b-4624-9c46-53aece51e242")
-		(property "Reference" "Q8"
-			(at 245.11 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 245.11 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 238.76 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "aa4c73e7-64ac-4b1a-8224-fa8fc09c9740")
-		)
-		(pin "2"
-			(uuid "5d22568d-fb3e-4920-98bb-dd2ce8ce3a04")
-		)
-		(pin "1"
-			(uuid "a7e3ed18-942b-414f-a328-5f7e56192fee")
-		)
-		(instances
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 238.76 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdcc495b-df01-4560-811f-002bab8b340f")
-		(property "Reference" "Q10"
-			(at 245.11 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 245.11 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2f4eb31a-db11-4bb6-81c5-8ab0042170d6")
-		)
-		(pin "2"
-			(uuid "80726589-7ab6-4f7b-9ff3-07a25e4332f1")
-		)
-		(pin "1"
-			(uuid "9fb3ad92-eb51-444e-b9ef-da6d9debdea0")
-		)
-		(instances
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q10")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -6978,7 +6924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce526ebb-8d5a-453d-a1b3-68c08e3d7d14")
-		(property "Reference" "R37"
+		(property "Reference" "R44"
 			(at 59.69 136.398 90)
 			(effects
 				(font
@@ -6994,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 135.128 90)
 			(effects
 				(font
@@ -7030,7 +6976,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R37")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -7045,7 +6991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cefcad09-97a1-4417-8d62-9ef15ed62c8d")
-		(property "Reference" "TP14"
+		(property "Reference" "TP13"
 			(at 102.87 74.93 90)
 			(effects
 				(font
@@ -7096,7 +7042,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "TP14")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -7112,7 +7058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d29256b8-5142-4b86-b953-8fb5e579c318")
-		(property "Reference" "R45"
+		(property "Reference" "R52"
 			(at 162.56 125.7299 0)
 			(effects
 				(font
@@ -7130,7 +7076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.242 127 90)
 			(effects
 				(font
@@ -7166,8 +7112,90 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R45")
+					(reference "R52")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
+		(at 238.76 52.07 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2984d54-3e60-4796-8e9d-26e562e76337")
+		(property "Reference" "Q6"
+			(at 245.11 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XRS306D"
+			(at 245.11 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:PDFN8"
+			(at 243.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 241.046 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "42ae43d9-ff39-45f3-bd35-0efa73a920ca")
+		)
+		(pin "5"
+			(uuid "ef6f692f-ff2a-4e4f-a4ad-6ac528ecaf85")
+		)
+		(pin "3"
+			(uuid "47eb8b57-c88f-43be-96df-47800bdb5156")
+		)
+		(pin "1"
+			(uuid "a2831e5f-8791-4841-a0f3-8fc325e57019")
+		)
+		(pin "4"
+			(uuid "dea4b832-327c-44f4-99c0-e15ef63f2ac8")
+		)
+		(pin "2"
+			(uuid "1c199296-a839-4d4b-bc7d-48221eeb9eb4")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
+					(reference "Q6")
+					(unit 2)
 				)
 			)
 		)
@@ -7182,7 +7210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1ae67e-02a8-41f4-9859-684eeb395d9c")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0162"
 			(at 156.21 36.83 0)
 			(effects
 				(font
@@ -7232,7 +7260,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0135")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df49850d-1878-47cd-89c8-052f0806ea39")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0155"
 			(at 41.91 58.42 0)
 			(effects
 				(font
@@ -7298,7 +7326,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0128")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -7314,7 +7342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4385680-b0bf-4769-a7a5-986bae348bb5")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0164"
 			(at 160.02 152.4 0)
 			(effects
 				(font
@@ -7364,7 +7392,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0137")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -7380,7 +7408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea05e4dc-358b-4dba-a0aa-f294d0677267")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 250.19 44.4499 0)
 			(effects
 				(font
@@ -7431,7 +7459,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7447,7 +7475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f406693e-f3ed-4a7d-9e0b-9c09f85231e9")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0161"
 			(at 140.97 104.14 0)
 			(effects
 				(font
@@ -7497,7 +7525,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0134")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -7513,7 +7541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5acfcc5-8cbe-46a3-83aa-c35dd4ea1845")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 250.19 87.6299 0)
 			(effects
 				(font
@@ -7564,7 +7592,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7580,7 +7608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f77f1777-3686-4f6e-9d16-51cc09063267")
-		(property "Reference" "C58"
+		(property "Reference" "C69"
 			(at 34.29 44.4499 0)
 			(effects
 				(font
@@ -7598,7 +7626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 31.4452 49.53 0)
 			(effects
 				(font
@@ -7634,7 +7662,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "C58")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -7650,7 +7678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ffc002-a78f-4e47-a464-e5c2837314ab")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0167"
 			(at 241.3 78.74 0)
 			(effects
 				(font
@@ -7700,7 +7728,89 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR0140")
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
+		(at 238.76 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd5180bb-1a1d-4b50-9072-7cf064ecf749")
+		(property "Reference" "Q6"
+			(at 245.11 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XRS306D"
+			(at 245.11 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Parts:PDFN8"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 241.046 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "67143141-1bd2-479a-8b8d-e2f65e765475")
+		)
+		(pin "5"
+			(uuid "b2b1b6bc-7eea-47d9-958f-9f06399bdd3d")
+		)
+		(pin "3"
+			(uuid "329f8f0b-9780-42e6-839c-e0ba2af18460")
+		)
+		(pin "1"
+			(uuid "f604730a-1849-45e9-b74b-0d374779eadf")
+		)
+		(pin "4"
+			(uuid "fc468012-1619-4134-a502-740d1bf00463")
+		)
+		(pin "2"
+			(uuid "feb9361f-cf7a-4613-9778-848dcfb16d02")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7716,7 +7826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffa0808a-c347-453e-afbe-aacf503081e4")
-		(property "Reference" "R39"
+		(property "Reference" "R46"
 			(at 68.58 138.4299 0)
 			(effects
 				(font
@@ -7734,7 +7844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.262 139.7 90)
 			(effects
 				(font
@@ -7770,7 +7880,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "R39")
+					(reference "R46")
 					(unit 1)
 				)
 			)
