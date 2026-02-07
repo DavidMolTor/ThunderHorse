@@ -771,14 +771,6 @@
       "ESC"
     ],
     [
-      "593939c9-ca21-46a5-baaf-5c6ecc4a9199",
-      "Sensors"
-    ],
-    [
-      "bc3cf81e-9940-4196-8a64-4d021e41ea8d",
-      "Receiver"
-    ],
-    [
       "1e531f33-ba68-434b-8668-a85d28098a3f",
       "ESC1"
     ],
@@ -793,6 +785,18 @@
     [
       "c0aa3042-c8c9-4ed2-b5c5-e577006d065c",
       "ESC4"
+    ],
+    [
+      "593939c9-ca21-46a5-baaf-5c6ecc4a9199",
+      "Sensors"
+    ],
+    [
+      "bc3cf81e-9940-4196-8a64-4d021e41ea8d",
+      "Receiver"
+    ],
+    [
+      "111cf19a-e0f8-4ba5-b5cb-1102d2b05aed",
+      "Others"
     ]
   ],
   "text_variables": {}

@@ -11,7 +11,7 @@
 		(title "THUNDER HORSE")
 		(date "2026-01-28")
 		(rev "1.0")
-		(company "Chapuzas S.L.")
+		(company "DavidMolTor")
 	)
 	(layers
 		(0 "F.Cu" signal)

@@ -8,12 +8,54 @@
 		(title "THUNDER HORSE")
 		(date "2026-01-28")
 		(rev "1.0")
-		(company "Chapuzas S.L.")
+		(company "DavidMolTor")
 	)
 	(lib_symbols)
 	(sheet
-		(at 52.07 80.01)
-		(size 88.9 48.26)
+		(at 152.4 118.11)
+		(size 88.9 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "111cf19a-e0f8-4ba5-b5cb-1102d2b05aed")
+		(property "Sheetname" "Others"
+			(at 152.4 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Others.kicad_sch"
+			(at 152.4 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 68.58)
+		(size 88.9 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28,7 +70,7 @@
 		)
 		(uuid "18f92408-e59e-47fb-af3d-1bd4cb05bcc2")
 		(property "Sheetname" "MCU"
-			(at 52.07 79.2984 0)
+			(at 54.61 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 52.07 128.8546 0)
+			(at 54.61 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,8 +96,8 @@
 		)
 	)
 	(sheet
-		(at 154.94 80.01)
-		(size 88.9 48.26)
+		(at 152.4 68.58)
+		(size 88.9 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -70,7 +112,7 @@
 		)
 		(uuid "593939c9-ca21-46a5-baaf-5c6ecc4a9199")
 		(property "Sheetname" "Sensors"
-			(at 154.94 79.2984 0)
+			(at 152.4 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,7 +121,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 154.94 128.8546 0)
+			(at 152.4 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,14 +132,14 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8"
-					(page "5")
+					(page "9")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 154.94 24.13)
-		(size 88.9 48.26)
+		(at 152.4 19.05)
+		(size 88.9 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -112,7 +154,7 @@
 		)
 		(uuid "807a5f6f-4255-4cf0-8d90-acd62bb18590")
 		(property "Sheetname" "ESC"
-			(at 154.94 23.4184 0)
+			(at 152.4 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,7 +163,7 @@
 			)
 		)
 		(property "Sheetfile" "ESC.kicad_sch"
-			(at 154.94 72.9746 0)
+			(at 152.4 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,8 +180,8 @@
 		)
 	)
 	(sheet
-		(at 52.07 24.13)
-		(size 88.9 48.26)
+		(at 54.61 19.05)
+		(size 88.9 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -154,7 +196,7 @@
 		)
 		(uuid "9df2a240-d97e-494f-85fd-6467f59fa68d")
 		(property "Sheetname" "Power"
-			(at 52.07 23.4184 0)
+			(at 54.61 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,7 +205,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 52.07 72.9746 0)
+			(at 54.61 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,8 +222,8 @@
 		)
 	)
 	(sheet
-		(at 52.07 135.89)
-		(size 88.9 48.26)
+		(at 54.61 118.11)
+		(size 88.9 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -196,7 +238,7 @@
 		)
 		(uuid "bc3cf81e-9940-4196-8a64-4d021e41ea8d")
 		(property "Sheetname" "Receiver"
-			(at 52.07 135.1784 0)
+			(at 54.61 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -205,7 +247,7 @@
 			)
 		)
 		(property "Sheetfile" "Receiver.kicad_sch"
-			(at 52.07 184.7346 0)
+			(at 54.61 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +258,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8"
-					(page "6")
+					(page "10")
 				)
 			)
 		)

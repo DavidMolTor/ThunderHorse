@@ -8,7 +8,7 @@
 		(title "THUNDER HORSE")
 		(date "2026-01-28")
 		(rev "1.0")
-		(company "Chapuzas S.L.")
+		(company "DavidMolTor")
 	)
 	(lib_symbols
 		(symbol "Custom_Parts:21700_DUAL_HOLDER"
@@ -1959,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 116.84 105.41)
+			(xy 111.76 91.44) (xy 111.76 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2049,16 +2049,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 118.11) (xy 153.67 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d524b70-c9e7-4f79-b189-71ce76718416")
-	)
-	(wire
-		(pts
 			(xy 88.9 120.65) (xy 88.9 130.81)
 		)
 		(stroke
@@ -2086,16 +2076,6 @@
 			(type default)
 		)
 		(uuid "29e2ca6c-cef7-4322-893a-6f53b2540761")
-	)
-	(wire
-		(pts
-			(xy 142.24 105.41) (xy 144.78 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c49659c-2c9f-4a2f-a442-229640956cc4")
 	)
 	(wire
 		(pts
@@ -2129,16 +2109,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 125.73) (xy 162.56 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392c697e-6918-4093-8ad6-66270a08b2ef")
-	)
-	(wire
-		(pts
 			(xy 88.9 113.03) (xy 88.9 110.49)
 		)
 		(stroke
@@ -2149,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 134.62 91.44)
+			(xy 149.86 91.44) (xy 134.62 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2329,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75535bbd-b161-45e0-addf-64139a44ae77")
+	)
+	(wire
+		(pts
 			(xy 116.84 125.73) (xy 116.84 128.27)
 		)
 		(stroke
@@ -2336,6 +2316,16 @@
 			(type default)
 		)
 		(uuid "787bdd6b-5236-4d09-a25d-5299923b7ad2")
+	)
+	(wire
+		(pts
+			(xy 142.24 125.73) (xy 162.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787ccfe0-b09a-40ab-8f36-571bc7cc3a03")
 	)
 	(wire
 		(pts
@@ -2439,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 119.38 105.41)
+			(xy 111.76 105.41) (xy 119.38 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2469,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 105.41) (xy 144.78 91.44)
+			(xy 149.86 105.41) (xy 149.86 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2486,6 +2476,16 @@
 			(type default)
 		)
 		(uuid "978de2f5-9f61-4ae6-992e-83aa652637bc")
+	)
+	(wire
+		(pts
+			(xy 142.24 118.11) (xy 153.67 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7074b8-c9be-4269-85f8-42f0648dc5bc")
 	)
 	(wire
 		(pts
@@ -2699,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 91.44) (xy 116.84 91.44)
+			(xy 127 91.44) (xy 111.76 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 120.65) (xy 104.14 120.65)
+			(xy 104.14 120.65) (xy 116.84 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2726,6 +2726,56 @@
 			(type default)
 		)
 		(uuid "fb9129fe-1fe3-4be2-8b5d-a9e741c38aeb")
+	)
+	(label "FB"
+		(at 144.78 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "594ed48e-ca9f-4be1-921c-8fe5eb281dce")
+	)
+	(label "L2"
+		(at 144.78 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72cebf8f-e873-44b7-ae0a-89e0f45bccdc")
+	)
+	(label "PG"
+		(at 147.32 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92474765-20b8-47c5-abf3-15a3708c6e84")
+	)
+	(label "L1"
+		(at 116.84 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b59b20bc-4b96-479b-8ff4-d57b385c84b5")
+	)
+	(label "EN"
+		(at 115.57 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f76ef7a0-e99e-4ccc-af60-bf9673148311")
 	)
 	(symbol
 		(lib_id "Device:C")
