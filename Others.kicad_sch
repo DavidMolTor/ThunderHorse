@@ -2037,7 +2037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17494b4b-310c-4d1e-b6a9-ce8f72ea05da")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0198"
 			(at 125.73 85.09 0)
 			(effects
 				(font
@@ -2087,7 +2087,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "#PWR0186")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -2103,7 +2103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "217652de-4a87-4287-bb51-be2dd9419490")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0199"
 			(at 166.37 127 0)
 			(effects
 				(font
@@ -2153,7 +2153,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "#PWR0187")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -2169,7 +2169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "380d896c-24cf-49d8-8678-4903015185c0")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0196"
 			(at 102.87 121.92 0)
 			(effects
 				(font
@@ -2219,7 +2219,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "#PWR0184")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -2311,7 +2311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cad103e-4911-4103-b66f-f7d8332d3c42")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0197"
 			(at 124.46 121.92 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "#PWR0185")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -2377,7 +2377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "516c69ca-d779-4bf9-a226-c35733f01bb0")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0200"
 			(at 168.91 83.82 0)
 			(effects
 				(font
@@ -2427,7 +2427,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "#PWR0188")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -2442,7 +2442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f0d7e81-6705-4ac8-a58c-f2a6073caf3b")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0201"
 			(at 176.53 104.14 0)
 			(effects
 				(font
@@ -2492,7 +2492,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "#PWR0189")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -2578,7 +2578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9668d57c-baa1-494b-b2e5-6c2ac4873893")
-		(property "Reference" "R90"
+		(property "Reference" "R89"
 			(at 160.02 106.68 90)
 			(effects
 				(font
@@ -2630,7 +2630,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "R90")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -2815,7 +2815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4d2fd2f-ead6-40fa-b803-c48f0217c3b7")
-		(property "Reference" "R89"
+		(property "Reference" "R88"
 			(at 111.252 70.612 90)
 			(effects
 				(font
@@ -2869,7 +2869,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "R89")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -2885,7 +2885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c794d486-495f-45fe-b76e-1462fdd3beb0")
-		(property "Reference" "R91"
+		(property "Reference" "R90"
 			(at 168.91 115.5699 0)
 			(effects
 				(font
@@ -2939,7 +2939,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "R91")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -2955,7 +2955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d722b248-33cf-4fb9-b26b-f5d1f4d3b65c")
-		(property "Reference" "C76"
+		(property "Reference" "C101"
 			(at 128.27 107.9499 0)
 			(effects
 				(font
@@ -3009,7 +3009,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "C76")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -3025,7 +3025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e60c3a69-53a1-4a76-9263-3128d11b8b58")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0202"
 			(at 176.53 127 0)
 			(effects
 				(font
@@ -3075,7 +3075,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "#PWR0190")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -3090,7 +3090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb897696-8d24-4693-a0f5-c36212e02a0d")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0195"
 			(at 102.87 99.06 0)
 			(effects
 				(font
@@ -3140,7 +3140,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "#PWR0183")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
