@@ -473,6 +473,123 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "ANTENNA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 12,
+        "schematic_color": "rgb(0, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "BEMF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgb(132, 132, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "ESC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgb(0, 194, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "EXTERNAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 132, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "IMU",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "MOSFET",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgb(132, 132, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "NOISE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "QSPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(132, 132, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "RADIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(221, 133, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SENSORS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(132, 0, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SWD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 194, 0)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -480,7 +597,132 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/USB*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "3V3*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "5V*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VBAT*"
+      },
+      {
+        "netclass": "ESC",
+        "pattern": "ESC*"
+      },
+      {
+        "netclass": "ESC",
+        "pattern": "/ESC/ESC*/ESC*"
+      },
+      {
+        "netclass": "NOISE",
+        "pattern": "/ESC/ESC*/MOTOR*"
+      },
+      {
+        "netclass": "NOISE",
+        "pattern": "/ESC/ESC*/GL*"
+      },
+      {
+        "netclass": "NOISE",
+        "pattern": "/ESC/ESC*/GH*"
+      },
+      {
+        "netclass": "BEMF",
+        "pattern": "/ESC/ESC*/BEMF*"
+      },
+      {
+        "netclass": "MOSFET",
+        "pattern": "/ESC/ESC*/GL*"
+      },
+      {
+        "netclass": "MOSFET",
+        "pattern": "/ESC/ESC*/GH*"
+      },
+      {
+        "netclass": "NOISE",
+        "pattern": "/ESC/ESC*/BST*"
+      },
+      {
+        "netclass": "ANTENNA",
+        "pattern": "/Receiver/ANT*"
+      },
+      {
+        "netclass": "ANTENNA",
+        "pattern": "ANT*"
+      },
+      {
+        "netclass": "ANTENNA",
+        "pattern": "/Receiver/RFIO*"
+      },
+      {
+        "netclass": "NOISE",
+        "pattern": "/Power/L*"
+      },
+      {
+        "netclass": "NOISE",
+        "pattern": "/Receiver/DCC*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "/MCU/SW*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "/MCU/RUN"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "/MCU/QSPI*"
+      },
+      {
+        "netclass": "NOISE",
+        "pattern": "/MCU/VREG_LX"
+      },
+      {
+        "netclass": "NOISE",
+        "pattern": "1V1"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "/MCU/*SS"
+      },
+      {
+        "netclass": "EXTERNAL",
+        "pattern": "/MCU/GPS*"
+      },
+      {
+        "netclass": "EXTERNAL",
+        "pattern": "/MCU/CAM*"
+      },
+      {
+        "netclass": "RADIO",
+        "pattern": "RX*"
+      },
+      {
+        "netclass": "RADIO",
+        "pattern": "TX*"
+      },
+      {
+        "netclass": "IMU",
+        "pattern": "IMU*"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "/MCU/BOOT*"
+      },
+      {
+        "netclass": "SENSORS",
+        "pattern": "SENS*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

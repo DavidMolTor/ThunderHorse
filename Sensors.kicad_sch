@@ -4070,10 +4070,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "768a9588-4a8f-40d0-b240-4602e22094b2")
 		(property "Reference" "C81"
-			(at 88.9 71.1199 0)
+			(at 77.724 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4081,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 88.9 73.6599 0)
+			(at 77.724 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
