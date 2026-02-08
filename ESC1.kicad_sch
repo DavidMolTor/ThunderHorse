@@ -391,6 +391,44 @@
 				)
 			)
 			(symbol "DRV8300D_1_0"
+				(pin no_connect line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -12.7 11.43 0)
 					(length 2.54)
@@ -499,8 +537,44 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -13.97 0)
+					(length 2.54)
+					(name "DT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -19.05 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2718,6 +2792,14 @@
 		(uuid "5bc43267-4b5a-4daf-a1ca-0ad9115bf53b")
 	)
 	(no_connect
+		(at 143.51 81.28)
+		(uuid "606c1737-f67a-4f91-a8f3-4e3eb506d829")
+	)
+	(no_connect
+		(at 143.51 83.82)
+		(uuid "6c468513-6775-474f-b845-94e4f1fd4a16")
+	)
+	(no_connect
 		(at 50.8 54.61)
 		(uuid "786e23ec-0c68-482e-b216-54f1b6645c05")
 	)
@@ -3417,7 +3499,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 81.28) (xy 140.97 97.79)
+			(xy 140.97 88.9) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3487,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 81.28) (xy 140.97 81.28)
+			(xy 143.51 88.9) (xy 140.97 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4723,7 +4805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 50.4952 180.34 0)
 			(effects
 				(font
@@ -4998,7 +5080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 125.73 0)
 			(effects
 				(font
@@ -5080,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 82.55 0)
 			(effects
 				(font
@@ -5364,7 +5446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 88.5952 180.34 0)
 			(effects
 				(font
@@ -5566,7 +5648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 95.25 0)
 			(effects
 				(font
@@ -5738,6 +5820,18 @@
 		)
 		(pin "4"
 			(uuid "3b7ea6fc-30c6-4922-936d-5932f672cc54")
+		)
+		(pin "7"
+			(uuid "43941e13-a416-4d82-af59-1a992a97c12f")
+		)
+		(pin "8"
+			(uuid "24411020-57f9-4b3d-8f15-5a6d25beffe9")
+		)
+		(pin "21"
+			(uuid "afd48c46-ba20-4ef8-93ce-d2090401781e")
+		)
+		(pin "5"
+			(uuid "26f61ebc-7a58-461a-95b8-b07ff803d6db")
 		)
 		(instances
 			(project "ThunderHorse"
@@ -5981,7 +6075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 75.8952 180.34 0)
 			(effects
 				(font
@@ -6119,7 +6213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 52.07 0)
 			(effects
 				(font
@@ -6267,7 +6361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 63.1952 180.34 0)
 			(effects
 				(font
@@ -6337,7 +6431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 37.7952 180.34 0)
 			(effects
 				(font
@@ -6756,7 +6850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 138.43 0)
 			(effects
 				(font
@@ -7984,7 +8078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Parts:PAD_2_SQUARE_SOLID_1.0x1.0mm_P1.5mm"
 			(at 102.87 77.47 0)
 			(effects
 				(font
@@ -8326,7 +8420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 39.37 0)
 			(effects
 				(font

@@ -2946,7 +2946,7 @@
 		(uuid "fb9129fe-1fe3-4be2-8b5d-a9e741c38aeb")
 	)
 	(label "FB"
-		(at 148.59 118.11 0)
+		(at 151.13 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2966,12 +2966,12 @@
 		(uuid "72cebf8f-e873-44b7-ae0a-89e0f45bccdc")
 	)
 	(label "PG"
-		(at 151.13 125.73 180)
+		(at 151.13 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "92474765-20b8-47c5-abf3-15a3708c6e84")
 	)
@@ -2984,6 +2984,26 @@
 			(justify right bottom)
 		)
 		(uuid "b59b20bc-4b96-479b-8ff4-d57b385c84b5")
+	)
+	(label "BAT_JUMP"
+		(at 92.71 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0ebedc0-1dd3-46fc-9551-708cee4db681")
+	)
+	(label "VAUX"
+		(at 123.19 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3aa10d2-28a6-4009-92b9-d40d1cb610bd")
 	)
 	(label "EN"
 		(at 119.38 120.65 180)
@@ -3152,7 +3172,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 135.636 64.77 0)
 			(effects
 				(font
@@ -3161,7 +3181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 135.5852 63.5 0)
 			(effects
 				(font
@@ -3629,7 +3649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 122.936 64.77 0)
 			(effects
 				(font
@@ -3638,7 +3658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 122.8852 63.5 0)
 			(effects
 				(font
@@ -3973,7 +3993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 116.586 64.77 0)
 			(effects
 				(font
@@ -3982,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.5352 63.5 0)
 			(effects
 				(font
@@ -4309,7 +4329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 129.286 64.77 0)
 			(effects
 				(font
@@ -4318,7 +4338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 129.2352 63.5 0)
 			(effects
 				(font
@@ -5886,7 +5906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "22u"
 			(at 141.986 64.77 0)
 			(effects
 				(font
@@ -5895,7 +5915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 141.9352 63.5 0)
 			(effects
 				(font

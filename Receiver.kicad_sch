@@ -2752,16 +2752,16 @@
 		(uuid "73a26b70-9bb1-485c-a998-7633a18bebda")
 	)
 	(junction
+		(at 81.28 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76fb9204-6166-4aec-99d2-b19f2b46f6b1")
+	)
+	(junction
 		(at 148.59 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86701a09-357e-4160-abcc-53cbad54f56a")
-	)
-	(junction
-		(at 81.28 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bb1f847-b009-480d-b444-c11f1aaa61cd")
 	)
 	(junction
 		(at 213.36 135.89)
@@ -2810,12 +2810,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7e54057-2cc9-444d-882b-0ab77c8009a9")
-	)
-	(junction
-		(at 160.02 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f676aebd-657c-45f6-8cca-2453847b69f6")
 	)
 	(junction
 		(at 95.25 132.08)
@@ -3173,6 +3167,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 35.56) (xy 81.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48467ed7-b170-4ac6-85b6-262bc5a1264f")
+	)
+	(wire
+		(pts
 			(xy 80.01 73.66) (xy 82.55 73.66)
 		)
 		(stroke
@@ -3260,16 +3264,6 @@
 			(type default)
 		)
 		(uuid "661494e1-d9c1-46c2-bb04-517648761172")
-	)
-	(wire
-		(pts
-			(xy 78.74 35.56) (xy 81.28 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67be48be-0f95-4ae5-a178-6ec49a1bd28e")
 	)
 	(wire
 		(pts
@@ -3433,16 +3427,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 38.1) (xy 88.9 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f8148e-303c-4ecf-92da-124d28d1a46e")
-	)
-	(wire
-		(pts
 			(xy 193.04 66.04) (xy 207.01 66.04)
 		)
 		(stroke
@@ -3490,16 +3474,6 @@
 			(type default)
 		)
 		(uuid "88309dcd-90f6-4321-be17-003f512a21d2")
-	)
-	(wire
-		(pts
-			(xy 160.02 57.15) (xy 162.56 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89fec950-366a-46b2-b7c6-4482bc29dee6")
 	)
 	(wire
 		(pts
@@ -3560,6 +3534,16 @@
 			(type default)
 		)
 		(uuid "9b9ccb14-86e8-477c-8811-41545c1d0cc6")
+	)
+	(wire
+		(pts
+			(xy 81.28 35.56) (xy 111.76 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3eb585-8c48-430c-8770-1710daadcc20")
 	)
 	(wire
 		(pts
@@ -3730,6 +3714,16 @@
 			(type default)
 		)
 		(uuid "b625285c-457f-4f2a-a050-ec889743649a")
+	)
+	(wire
+		(pts
+			(xy 88.9 38.1) (xy 99.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b785e7ae-a38a-4743-ac67-43e03752b597")
 	)
 	(wire
 		(pts
@@ -3991,16 +3985,6 @@
 		)
 		(uuid "f919b757-19e8-48ca-8656-3a76a92366dd")
 	)
-	(wire
-		(pts
-			(xy 81.28 35.56) (xy 111.76 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae87a6f-97a7-49cb-bdd8-6bd18d3b04e2")
-	)
 	(label "DCC_FB"
 		(at 78.74 35.56 180)
 		(effects
@@ -4010,6 +3994,16 @@
 			(justify right bottom)
 		)
 		(uuid "15b1097c-96a0-491b-a1b5-4cda75194a7f")
+	)
+	(label "DCC_SW"
+		(at 134.665 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b5559f3-0107-4605-90bf-39532bc355e9")
 	)
 	(label "RFIO"
 		(at 204.47 73.66 180)
@@ -4041,6 +4035,16 @@
 		)
 		(uuid "53e2da07-c72f-4baf-ae59-9324793d5084")
 	)
+	(label "XTA"
+		(at 99.06 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ec6d873-68d4-4147-a921-6dc7569fe9b7")
+	)
 	(label "RFIO"
 		(at 185.42 135.89 180)
 		(effects
@@ -4052,14 +4056,24 @@
 		(uuid "9a96fd09-8853-4631-b56b-086267f70a8e")
 	)
 	(label "DCC_FB"
-		(at 162.56 57.15 0)
+		(at 134.62 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b73334a4-57bd-446f-92f8-e650337355ae")
+		(uuid "ad3f2455-a076-4ddd-be63-f7c0ec19356b")
+	)
+	(label "XTB"
+		(at 99.06 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb6ab984-cdb6-4b8a-bc5b-8b532f0b3861")
 	)
 	(label "ANT_FILT"
 		(at 130.81 133.35 180)
@@ -4070,6 +4084,16 @@
 			(justify right bottom)
 		)
 		(uuid "cfa3c60e-b062-448d-a27c-0715eb2db5d1")
+	)
+	(label "VR_PA"
+		(at 97.79 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffdbd7a4-a999-449c-b83a-2807c714a9f1")
 	)
 	(global_label "RX_DIO2"
 		(shape input)

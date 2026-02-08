@@ -758,6 +758,63 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 12.7 270)
 					(length 2.54)
@@ -787,6 +844,63 @@
 						)
 					)
 					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -15.24 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -17.78 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -20.32 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5119,7 +5233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 			(at 220.98 134.62 0)
 			(effects
 				(font
@@ -5178,6 +5292,24 @@
 		)
 		(pin "3"
 			(uuid "4c7e9b80-4289-4edf-b621-597b7cd1061f")
+		)
+		(pin "8"
+			(uuid "2b3bf8cb-1cb8-457f-8af7-8c69b350d3ad")
+		)
+		(pin "15"
+			(uuid "77d83bcc-9888-4580-9f80-7df728659c31")
+		)
+		(pin "14"
+			(uuid "a0ae9ee7-e516-42ed-838b-6e2626d15cae")
+		)
+		(pin "7"
+			(uuid "d83f9890-c12e-4502-b668-5131f7dea3f2")
+		)
+		(pin "16"
+			(uuid "33b02fd5-6466-4530-8dcf-5892a0fc20e6")
+		)
+		(pin "6"
+			(uuid "dc00c3fd-4d73-4800-a1c1-720090004c38")
 		)
 		(instances
 			(project ""

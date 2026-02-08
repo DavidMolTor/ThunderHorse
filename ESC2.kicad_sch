@@ -391,6 +391,44 @@
 				)
 			)
 			(symbol "DRV8300D_1_0"
+				(pin no_connect line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -12.7 11.43 0)
 					(length 2.54)
@@ -499,8 +537,44 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -13.97 0)
+					(length 2.54)
+					(name "DT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -19.05 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2746,6 +2820,10 @@
 		(uuid "950e2e98-acfb-4bd7-96e2-2d96ef62d47b")
 	)
 	(no_connect
+		(at 143.51 83.82)
+		(uuid "a026a734-ed6a-4d5d-973f-c2035224d502")
+	)
+	(no_connect
 		(at 50.8 80.01)
 		(uuid "b0225214-f6d5-4028-9600-3d866fcc4ce6")
 	)
@@ -2764,6 +2842,10 @@
 	(no_connect
 		(at 50.8 72.39)
 		(uuid "e43f70cb-162c-4b25-97bd-385cc971dd93")
+	)
+	(no_connect
+		(at 143.51 81.28)
+		(uuid "fd848e03-de57-43b4-a464-c8dfbd85f419")
 	)
 	(wire
 		(pts
@@ -3064,6 +3146,16 @@
 			(type default)
 		)
 		(uuid "3ffaab42-ebd8-446b-8ffa-93c2ea2a877f")
+	)
+	(wire
+		(pts
+			(xy 140.97 88.9) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e0ccac-7e50-4c78-bd91-8692ed0cce48")
 	)
 	(wire
 		(pts
@@ -3577,16 +3669,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 81.28) (xy 140.97 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c40c52a-aa92-4e06-88f0-9ca9120e8261")
-	)
-	(wire
-		(pts
 			(xy 231.14 39.37) (xy 238.76 39.37)
 		)
 		(stroke
@@ -3797,6 +3879,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 88.9) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb48163-8c77-4f30-81d9-a3e48661862f")
+	)
+	(wire
+		(pts
 			(xy 151.13 133.35) (xy 153.67 133.35)
 		)
 		(stroke
@@ -3804,16 +3896,6 @@
 			(type default)
 		)
 		(uuid "deb30978-894e-4efd-8a75-d95ae3b557c7")
-	)
-	(wire
-		(pts
-			(xy 140.97 81.28) (xy 140.97 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e02acbbc-cfbd-401d-b22f-c3be1e4b891e")
 	)
 	(wire
 		(pts
@@ -4725,7 +4807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 95.25 0)
 			(effects
 				(font
@@ -5589,6 +5671,18 @@
 		(pin "4"
 			(uuid "2c1fe8ed-d028-4299-bacb-9afb18df2191")
 		)
+		(pin "7"
+			(uuid "320c98ed-979d-4c26-98d4-31440ae2abeb")
+		)
+		(pin "8"
+			(uuid "44d8fc98-1fec-4b43-bf21-b7ed5171b1d2")
+		)
+		(pin "21"
+			(uuid "65813bc9-3b6f-44fe-93f8-5df0e301bfd1")
+		)
+		(pin "5"
+			(uuid "062b960e-cffb-4810-8f65-657d32aa2635")
+		)
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
@@ -5896,7 +5990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 82.55 0)
 			(effects
 				(font
@@ -6079,6 +6173,72 @@
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53e36d68-62ae-4237-9ba8-bb662532aa10")
+		(property "Reference" "#PWR097"
+			(at 140.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a09d88ff-c6e3-433c-9a94-289f9b67137b")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -6384,7 +6544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 37.7952 180.34 0)
 			(effects
 				(font
@@ -6591,7 +6751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 75.8952 180.34 0)
 			(effects
 				(font
@@ -6661,7 +6821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 125.73 0)
 			(effects
 				(font
@@ -7145,7 +7305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 138.43 0)
 			(effects
 				(font
@@ -7227,7 +7387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Parts:PAD_2_SQUARE_SOLID_1.0x1.0mm_P1.5mm"
 			(at 102.87 77.47 0)
 			(effects
 				(font
@@ -7840,7 +8000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 88.5952 180.34 0)
 			(effects
 				(font
@@ -7910,7 +8070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 50.4952 180.34 0)
 			(effects
 				(font
@@ -7980,7 +8140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 52.07 0)
 			(effects
 				(font
@@ -8233,72 +8393,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 140.97 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f406693e-f3ed-4a7d-9e0b-9c09f85231e9")
-		(property "Reference" "#PWR097"
-			(at 140.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3e397cc-7402-49f6-bdad-f000bb08767d")
-		)
-		(instances
-			(project "ThunderHorse"
-				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 30.48 45.72 0)
 		(unit 1)
@@ -8462,7 +8556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 63.1952 180.34 0)
 			(effects
 				(font
@@ -8532,7 +8626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PDFN8"
+		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
 			(at 248.92 39.37 0)
 			(effects
 				(font
