@@ -130,9 +130,9 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -490,9 +490,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -500,7 +500,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -545,9 +545,9 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "IMU",
-        "pcb_color": "rgb(0, 0, 0)",
+        "pcb_color": "rgb(128, 77, 0)",
         "priority": 6,
-        "schematic_color": "rgb(0, 0, 0)",
+        "schematic_color": "rgb(128, 77, 0)",
         "wire_width": 6
       },
       {
@@ -570,29 +570,37 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.3,
         "line_style": 0,
         "name": "POWER",
         "pcb_color": "rgb(194, 0, 0)",
         "priority": 0,
         "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 1.0,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.3,
         "line_style": 0,
         "name": "PWRGND",
         "pcb_color": "rgb(132, 132, 132)",
         "priority": 1,
         "schematic_color": "rgb(132, 132, 132)",
+        "track_width": 1.0,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "QSPI",
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgb(72, 72, 72)",
         "priority": 3,
-        "schematic_color": "rgb(132, 132, 132)",
+        "schematic_color": "rgb(72, 72, 72)",
         "wire_width": 6
       },
       {
@@ -765,6 +773,10 @@
       {
         "netclass": "PWRGND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/MCU/VBUS"
       }
     ]
   },
@@ -776,7 +788,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ThunderHorse.step",
       "svg": "",
       "vrml": ""
     },
