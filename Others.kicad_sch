@@ -3344,7 +3344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d722b248-33cf-4fb9-b26b-f5d1f4d3b65c")
-		(property "Reference" "C101"
+		(property "Reference" "C105"
 			(at 128.27 90.1699 0)
 			(effects
 				(font
@@ -3398,7 +3398,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/111cf19a-e0f8-4ba5-b5cb-1102d2b05aed"
-					(reference "C101")
+					(reference "C105")
 					(unit 1)
 				)
 			)

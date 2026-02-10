@@ -2680,7 +2680,7 @@
 	(text_box "BULK CAPACITORS"
 		(exclude_from_sim no)
 		(at 22.86 161.29 0)
-		(size 80.01 29.21)
+		(size 93.98 29.21)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2704,6 +2704,12 @@
 		(uuid "0765c8b0-d34e-4f79-81f1-ec84490b438a")
 	)
 	(junction
+		(at 87.63 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "143bd481-e6e9-4e3d-95fd-cd3f8b5ed723")
+	)
+	(junction
 		(at 49.53 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2720,6 +2726,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3faa0788-1b0e-453a-82e5-c39f9216f796")
+	)
+	(junction
+		(at 68.58 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "472bf577-e2f8-4f9e-8b6a-8b3b8205882e")
+	)
+	(junction
+		(at 87.63 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1102aa-7a2f-4834-9e7d-d6f131d9f7ed")
 	)
 	(junction
 		(at 41.91 39.37)
@@ -2774,6 +2792,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a04fe4e-7218-4fa6-90ab-bc9eb3cafc31")
+	)
+	(junction
+		(at 68.58 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6826d0c-b610-4f09-a309-746f1a1be830")
 	)
 	(junction
 		(at 104.14 133.35)
@@ -2939,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 170.18) (xy 62.23 171.45)
+			(xy 68.58 170.18) (xy 68.58 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3076,6 +3100,26 @@
 			(type default)
 		)
 		(uuid "1f2065ea-55f8-479b-9ed6-232aca3ad357")
+	)
+	(wire
+		(pts
+			(xy 87.63 171.45) (xy 100.33 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e42e41-e5ba-4660-92e5-5809224ca954")
+	)
+	(wire
+		(pts
+			(xy 87.63 181.61) (xy 100.33 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225ebabe-5ba9-4411-ae3b-8cad76b64c60")
 	)
 	(wire
 		(pts
@@ -3246,6 +3290,16 @@
 			(type default)
 		)
 		(uuid "3b1c7497-a577-4017-9c92-92c7c6152ab2")
+	)
+	(wire
+		(pts
+			(xy 68.58 181.61) (xy 62.23 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f60dd92-e3b6-4748-b2b7-c6e395edbd84")
 	)
 	(wire
 		(pts
@@ -3579,6 +3633,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 171.45) (xy 62.23 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f03364c-d314-4a48-94b0-00a2e74aff70")
+	)
+	(wire
+		(pts
 			(xy 156.21 95.25) (xy 156.21 97.79)
 		)
 		(stroke
@@ -3739,7 +3803,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 181.61) (xy 62.23 181.61)
+			(xy 74.93 181.61) (xy 68.58 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3776,6 +3840,16 @@
 			(type default)
 		)
 		(uuid "bb1dbb6b-90d4-4ac1-8a83-5b08d1ccd2e7")
+	)
+	(wire
+		(pts
+			(xy 100.33 171.45) (xy 100.33 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc997c69-5207-4d6d-8976-c1940e02329c")
 	)
 	(wire
 		(pts
@@ -3849,13 +3923,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 171.45) (xy 62.23 171.45)
+			(xy 74.93 171.45) (xy 68.58 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c41b71b7-4d88-42d2-8ce0-98712da6d455")
+	)
+	(wire
+		(pts
+			(xy 100.33 181.61) (xy 100.33 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6d3e14-214a-4892-89e0-e78bb7644756")
 	)
 	(wire
 		(pts
@@ -3959,7 +4043,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 181.61) (xy 62.23 182.88)
+			(xy 68.58 181.61) (xy 68.58 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4719,7 +4803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0650b73f-436a-4ee4-b07e-a4e91efb892d")
-		(property "Reference" "C44"
+		(property "Reference" "C45"
 			(at 184.15 58.42 90)
 			(effects
 				(font
@@ -4771,7 +4855,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C44")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f36e6ad-bba6-457e-bb67-3cbaff8bdb96")
-		(property "Reference" "C42"
+		(property "Reference" "C43"
 			(at 144.78 40.6399 0)
 			(effects
 				(font
@@ -4911,7 +4995,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C42")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -5226,7 +5310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "246bd009-3d0b-412e-a5c2-91099007808a")
-		(property "Reference" "C45"
+		(property "Reference" "C46"
 			(at 184.15 72.39 90)
 			(effects
 				(font
@@ -5278,7 +5362,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C45")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5286,7 +5370,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 62.23 170.18 0)
+		(at 68.58 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5294,8 +5378,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e93c507-18ef-4a97-a2e9-92d9917345f6")
-		(property "Reference" "#PWR072"
-			(at 62.23 173.99 0)
+		(property "Reference" "#PWR074"
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5388,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 62.23 165.1 0)
+			(at 68.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 170.18 0)
+			(at 68.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 170.18 0)
+			(at 68.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 170.18 0)
+			(at 68.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5428,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "#PWR072")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6758,7 +6842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 182.88 0)
+		(at 68.58 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6766,8 +6850,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8892e359-bdb0-40b4-98ff-97e52075f41c")
-		(property "Reference" "#PWR073"
-			(at 62.23 189.23 0)
+		(property "Reference" "#PWR075"
+			(at 68.58 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +6860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 187.96 0)
+			(at 68.58 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,7 +6868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 182.88 0)
+			(at 68.58 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +6877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 182.88 0)
+			(at 68.58 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 182.88 0)
+			(at 68.58 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +6900,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7247,7 +7331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b138626-1d44-4a5b-9743-2ef15a2d0935")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR072"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -7297,7 +7381,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "#PWR074")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7655,7 +7739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b330f8dd-fcb8-4be8-9289-809fe25d0696")
-		(property "Reference" "C43"
+		(property "Reference" "C44"
 			(at 184.15 44.45 90)
 			(effects
 				(font
@@ -7707,7 +7791,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C43")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -7741,7 +7825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PAD_3_SQUARE_SOLID_2.0x2.0mm_P2.5mm"
+		(property "Footprint" "Custom_Parts:PAD_3_SQUARE_SOLID_2.5x2.5mm_P4.0mm"
 			(at 187.96 134.62 0)
 			(effects
 				(font
@@ -7928,7 +8012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca36eabd-817e-4228-ba72-b4f63d04f6dd")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR073"
 			(at 68.58 104.14 0)
 			(effects
 				(font
@@ -7978,7 +8062,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "#PWR075")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8387,6 +8471,76 @@
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0ede02-3232-4f84-8966-a30b06666eeb")
+		(property "Reference" "C42"
+			(at 104.14 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 104.14 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 101.2952 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f905e3de-03bc-48b8-ac58-9be8db1976d5")
+		)
+		(pin "2"
+			(uuid "db518e33-4ad8-4069-987d-842ccb2bd3c3")
+		)
+		(instances
+			(project "ThunderHorse"
+				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
+					(reference "C42")
 					(unit 1)
 				)
 			)
