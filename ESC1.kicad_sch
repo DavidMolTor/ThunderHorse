@@ -2597,6 +2597,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 20.32 20.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0277df6a-c6c3-4bb1-b4fc-8f6bfddd8480)
+	)
 	(text_box "GATE DRIVER"
 		(exclude_from_sim no)
 		(at 127 22.86 0)
@@ -4790,6 +4802,52 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 20.32 20.32) (xy 20.32 193.04) (xy 119.38 193.04) (xy 119.38 158.75) (xy 276.86 158.75) (xy 276.86 20.32)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8d97c0a8-950b-4d04-9bf8-0528687109c6)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 22.86 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9142a53-b222-427e-8f62-023a43b4e314")
+		(property "Netclass" ""
+			(at -294.64 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "ESC1"
+			(at 23.5585 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
