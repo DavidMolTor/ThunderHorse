@@ -237,6 +237,14 @@
         {
           "diameter": 1.0,
           "drill": 0.5
+        },
+        {
+          "diameter": 1.4,
+          "drill": 0.8
+        },
+        {
+          "diameter": 1.5,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -489,7 +497,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3,
@@ -500,7 +508,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -776,7 +784,7 @@
       },
       {
         "netclass": "POWER",
-        "pattern": "/MCU/VBUS"
+        "pattern": "VBUS"
       }
     ]
   },
