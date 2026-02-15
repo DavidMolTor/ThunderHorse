@@ -7180,7 +7180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Parts:PAD_3_SQUARE_SOLID_2.5x2.5mm_P4.0mm"
+		(property "Footprint" "Custom_Parts:PAD_3_SQUARE_SOLID_2.5x2.5mm_P4.0mm_MOTOR"
 			(at 187.96 134.62 0)
 			(effects
 				(font
