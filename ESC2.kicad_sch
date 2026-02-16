@@ -5314,7 +5314,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 243.84 52.07 0)
+		(at 243.84 125.73 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5323,7 +5323,7 @@
 		(fields_autoplaced yes)
 		(uuid "18f40972-b3fb-4bfb-a73d-69cc2b500c6d")
 		(property "Reference" "Q4"
-			(at 250.19 50.7999 0)
+			(at 250.19 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5332,7 @@
 			)
 		)
 		(property "Value" "XRS306D"
-			(at 250.19 53.3399 0)
+			(at 250.19 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5341,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
-			(at 248.92 52.07 0)
+			(at 248.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 52.07 0)
+			(at 248.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5359,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 246.126 64.262 0)
+			(at 246.126 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5605,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 243.84 82.55 0)
+		(at 243.84 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5614,7 +5614,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e5fbe06-2dd7-4d00-b5b1-808951aaaecd")
 		(property "Reference" "Q5"
-			(at 250.19 81.2799 0)
+			(at 250.19 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5623,7 @@
 			)
 		)
 		(property "Value" "XRS306D"
-			(at 250.19 83.8199 0)
+			(at 250.19 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5632,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
-			(at 248.92 82.55 0)
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 82.55 0)
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5650,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 246.126 94.742 0)
+			(at 246.126 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +5892,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 243.84 95.25 0)
+		(at 243.84 82.55 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5901,7 +5901,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b27d13f-d68a-4901-97ba-809a5e75e47a")
 		(property "Reference" "Q5"
-			(at 250.19 93.9799 0)
+			(at 250.19 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +5910,7 @@
 			)
 		)
 		(property "Value" "XRS306D"
-			(at 250.19 96.5199 0)
+			(at 250.19 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +5919,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
-			(at 248.92 95.25 0)
+			(at 248.92 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +5928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 95.25 0)
+			(at 248.92 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5937,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 246.126 107.442 0)
+			(at 246.126 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +5974,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 243.84 138.43 0)
+		(at 243.84 39.37 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5983,7 +5983,7 @@
 		(fields_autoplaced yes)
 		(uuid "4215f64e-228d-4e4c-b749-858dde6a07b5")
 		(property "Reference" "Q6"
-			(at 250.19 137.1599 0)
+			(at 250.19 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +5992,7 @@
 			)
 		)
 		(property "Value" "XRS306D"
-			(at 250.19 139.6999 0)
+			(at 250.19 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6001,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
-			(at 248.92 138.43 0)
+			(at 248.92 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 138.43 0)
+			(at 248.92 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6019,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 246.126 150.622 0)
+			(at 246.126 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6122,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 243.84 125.73 0)
+		(at 243.84 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6131,7 +6131,7 @@
 		(fields_autoplaced yes)
 		(uuid "470d5dfd-b538-414b-ab06-0d492d452e5c")
 		(property "Reference" "Q6"
-			(at 250.19 124.4599 0)
+			(at 250.19 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6140,7 @@
 			)
 		)
 		(property "Value" "XRS306D"
-			(at 250.19 126.9999 0)
+			(at 250.19 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6149,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
-			(at 248.92 125.73 0)
+			(at 248.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 125.73 0)
+			(at 248.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6167,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 246.126 137.922 0)
+			(at 246.126 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7084,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1S2G2D2D1")
-		(at 243.84 39.37 0)
+		(at 243.84 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7093,7 +7093,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a77be4f-35ae-4a58-9641-164ba43f4c03")
 		(property "Reference" "Q4"
-			(at 250.19 38.0999 0)
+			(at 250.19 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +7102,7 @@
 			)
 		)
 		(property "Value" "XRS306D"
-			(at 250.19 40.6399 0)
+			(at 250.19 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7111,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:PDFN8_DUAL_3.3x3.3mm"
-			(at 248.92 39.37 0)
+			(at 248.92 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 39.37 0)
+			(at 248.92 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7129,7 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 246.126 51.562 0)
+			(at 246.126 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
