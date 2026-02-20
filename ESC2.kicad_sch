@@ -5322,7 +5322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18f40972-b3fb-4bfb-a73d-69cc2b500c6d")
-		(property "Reference" "Q4"
+		(property "Reference" "Q6"
 			(at 250.19 124.4599 0)
 			(effects
 				(font
@@ -5388,7 +5388,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q4")
+					(reference "Q6")
 					(unit 2)
 				)
 			)
@@ -5982,7 +5982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4215f64e-228d-4e4c-b749-858dde6a07b5")
-		(property "Reference" "Q6"
+		(property "Reference" "Q4"
 			(at 250.19 38.0999 0)
 			(effects
 				(font
@@ -6048,7 +6048,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q6")
+					(reference "Q4")
 					(unit 2)
 				)
 			)
@@ -6130,7 +6130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "470d5dfd-b538-414b-ab06-0d492d452e5c")
-		(property "Reference" "Q6"
+		(property "Reference" "Q4"
 			(at 250.19 50.7999 0)
 			(effects
 				(font
@@ -6196,7 +6196,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q6")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7092,7 +7092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a77be4f-35ae-4a58-9641-164ba43f4c03")
-		(property "Reference" "Q4"
+		(property "Reference" "Q6"
 			(at 250.19 137.1599 0)
 			(effects
 				(font
@@ -7158,7 +7158,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/5c810e84-f116-497a-8ed3-5f68f4ce3b3e"
-					(reference "Q4")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
