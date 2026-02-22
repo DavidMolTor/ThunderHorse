@@ -785,6 +785,22 @@
       {
         "netclass": "POWER",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "RADIO",
+        "pattern": "ELRS*"
+      },
+      {
+        "netclass": "RADIO",
+        "pattern": "/Receiver/TX*"
+      },
+      {
+        "netclass": "RADIO",
+        "pattern": "/Receiver/RX*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Receiver/VDD"
       }
     ]
   },
