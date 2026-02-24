@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -235,16 +235,12 @@
           "drill": 0.2
         },
         {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
           "diameter": 1.0,
           "drill": 0.5
-        },
-        {
-          "diameter": 1.4,
-          "drill": 0.8
-        },
-        {
-          "diameter": 1.5,
-          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -552,15 +548,6 @@
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "IMU",
-        "pcb_color": "rgb(128, 77, 0)",
-        "priority": 6,
-        "schematic_color": "rgb(128, 77, 0)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
         "name": "MOSFET",
         "pcb_color": "rgb(0, 132, 0)",
         "priority": 10,
@@ -585,8 +572,8 @@
         "priority": 0,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -598,8 +585,8 @@
         "priority": 1,
         "schematic_color": "rgb(132, 132, 132)",
         "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -627,6 +614,15 @@
         "pcb_color": "rgb(132, 0, 132)",
         "priority": 8,
         "schematic_color": "rgb(132, 0, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgb(128, 77, 0)",
+        "priority": 6,
+        "schematic_color": "rgb(128, 77, 0)",
         "wire_width": 6
       },
       {
@@ -767,7 +763,7 @@
         "pattern": "TX*"
       },
       {
-        "netclass": "IMU",
+        "netclass": "SPI",
         "pattern": "IMU*"
       },
       {
@@ -801,6 +797,30 @@
       {
         "netclass": "POWER",
         "pattern": "/Receiver/VDD"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/Power/5V_MCU"
+      },
+      {
+        "netclass": "EXTERNAL",
+        "pattern": "GPIO*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Receiver/MOSI"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Receiver/MISO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Receiver/CS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Receiver/SCK"
       }
     ]
   },

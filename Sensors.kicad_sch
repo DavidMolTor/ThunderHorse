@@ -5230,7 +5230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d612ed67-bf34-48ee-b1a4-e3b8ecd090da")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG08"
 			(at 167.005 130.81 0)
 			(effects
 				(font
@@ -5281,7 +5281,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/593939c9-ca21-46a5-baaf-5c6ecc4a9199"
-					(reference "#FLG06")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
