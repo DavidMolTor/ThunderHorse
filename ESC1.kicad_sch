@@ -4765,7 +4765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0650b73f-436a-4ee4-b07e-a4e91efb892d")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 184.15 58.42 90)
 			(effects
 				(font
@@ -4817,7 +4817,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -4833,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06ce8972-6be8-4ca4-9934-1aa6396c8c65")
-		(property "Reference" "C33"
+		(property "Reference" "C34"
 			(at 59.69 175.2599 0)
 			(effects
 				(font
@@ -4887,7 +4887,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -4903,7 +4903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f36e6ad-bba6-457e-bb67-3cbaff8bdb96")
-		(property "Reference" "C37"
+		(property "Reference" "C38"
 			(at 144.78 40.6399 0)
 			(effects
 				(font
@@ -4957,7 +4957,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5272,7 +5272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "246bd009-3d0b-412e-a5c2-91099007808a")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 184.15 72.39 90)
 			(effects
 				(font
@@ -5324,7 +5324,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -5474,7 +5474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bad285-bff5-45d4-9623-3b26701a9e27")
-		(property "Reference" "C35"
+		(property "Reference" "C36"
 			(at 85.09 175.2599 0)
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6033,7 +6033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fce1fb4-fc24-4d21-a089-551c835797de")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 45.72 44.4499 0)
 			(effects
 				(font
@@ -6087,7 +6087,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -6319,7 +6319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7914db89-8d2f-40b7-969d-338a14d43df0")
-		(property "Reference" "C34"
+		(property "Reference" "C35"
 			(at 72.39 175.2599 0)
 			(effects
 				(font
@@ -6373,7 +6373,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -6388,7 +6388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79393500-ce76-4c6c-b1bd-68542e488415")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 46.99 175.2599 0)
 			(effects
 				(font
@@ -6442,7 +6442,7 @@
 		(instances
 			(project ""
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -7021,7 +7021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94a5d381-0de0-43bf-a962-00e3d731d874")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 34.29 44.4499 0)
 			(effects
 				(font
@@ -7075,7 +7075,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -7630,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b330f8dd-fcb8-4be8-9289-809fe25d0696")
-		(property "Reference" "C38"
+		(property "Reference" "C39"
 			(at 184.15 44.45 90)
 			(effects
 				(font
@@ -7682,7 +7682,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C38")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8377,7 +8377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0ede02-3232-4f84-8966-a30b06666eeb")
-		(property "Reference" "C36"
+		(property "Reference" "C37"
 			(at 97.79 175.2599 0)
 			(effects
 				(font
@@ -8431,7 +8431,7 @@
 		(instances
 			(project "ThunderHorse"
 				(path "/ac187c6c-fa53-41cc-bce1-6f39a42a92e8/807a5f6f-4255-4cf0-8d90-acd62bb18590/1e531f33-ba68-434b-8668-a85d28098a3f"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
